@@ -16,7 +16,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "話し手と聞き手の両方から遠い「あの」。저것＝あれ、저기＝あそこ。"
   },
   {
     "id": "5vr1",
@@ -35,7 +35,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "話し手と聞き手の両方から遠い「あの」。저것＝あれ、저기＝あそこ。"
   },
   {
     "id": "5v2",
@@ -54,7 +54,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "人の名前の後ろにつける「～さん」。名前＋씨 の順番で使う。"
   },
   {
     "id": "5vr2",
@@ -73,7 +73,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "人の名前の後ろにつける「～さん」。名前＋씨 の順番で使う。"
   },
   {
     "id": "5v3",
@@ -92,7 +92,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "「学生」と同じ漢字語。학＝学、생＝生と分けると覚えやすい。"
   },
   {
     "id": "5vr3",
@@ -111,7 +111,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "「学生」と同じ漢字語。학＝学、생＝生と分けると覚えやすい。"
   },
   {
     "id": "5v4",
@@ -130,7 +130,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "日本語の「～も」と同じ追加の助詞。저도＝私も、학생도＝学生も。"
   },
   {
     "id": "5vr4",
@@ -149,7 +149,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "日本語の「～も」と同じ追加の助詞。저도＝私も、학생도＝学生も。"
   },
   {
     "id": "5v5",
@@ -168,7 +168,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "朝昼晩に使える基本のあいさつ。まず音のかたまりごとに「안녕・하세요」と区切る。"
   },
   {
     "id": "5vr5",
@@ -187,7 +187,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "朝昼晩に使える基本のあいさつ。まず音のかたまりごとに「안녕・하세요」と区切る。"
   },
   {
     "id": "5v6",
@@ -206,7 +206,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "「名前」。이름이 무엇입니까?（名前は何ですか）で丸ごと覚える。"
   },
   {
     "id": "5vr6",
@@ -225,7 +225,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "「名前」。이름이 무엇입니까?（名前は何ですか）で丸ごと覚える。"
   },
   {
     "id": "5v7",
@@ -244,7 +244,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "「何」。会話では 뭐 と短くなることも多い。"
   },
   {
     "id": "5vr7",
@@ -263,7 +263,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "「何」。会話では 뭐 と短くなることも多い。"
   },
   {
     "id": "5v8",
@@ -282,7 +282,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "丁寧な「はい」。네 も「はい」としてよく使う。"
   },
   {
     "id": "5vr8",
@@ -301,7 +301,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "丁寧な「はい」。네 も「はい」としてよく使う。"
   },
   {
     "id": "5v9",
@@ -320,7 +320,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "「いいえ」。否定の 아니- と関連づける。"
   },
   {
     "id": "5vr9",
@@ -339,7 +339,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "「いいえ」。否定の 아니- と関連づける。"
   },
   {
     "id": "5v10",
@@ -358,7 +358,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "선생＝先生＋님＝敬称。日本語の「先生」と漢字語が同じ。"
   },
   {
     "id": "5vr10",
@@ -377,7 +377,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "선생＝先生＋님＝敬称。日本語の「先生」と漢字語が同じ。"
   },
   {
     "id": "5v11",
@@ -396,7 +396,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "만나다（会う）＋아서/어서＋반갑습니다（うれしい）。「会えてうれしいです」と分解する。"
   },
   {
     "id": "5vr11",
@@ -415,7 +415,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "만나다（会う）＋아서/어서＋반갑습니다（うれしい）。「会えてうれしいです」と分解する。"
   },
   {
     "id": "5v12",
@@ -434,7 +434,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "「友達」。친구와＝友達と、친구도＝友達も、のように助詞とセットで練習。"
   },
   {
     "id": "5vr12",
@@ -453,7 +453,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "「友達」。친구와＝友達と、친구도＝友達も、のように助詞とセットで練習。"
   },
   {
     "id": "5v13",
@@ -472,7 +472,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "「日本人＝일본 사람」を声に出して3回。最初の音節「일」を思い出す手がかりにする。"
   },
   {
     "id": "5vr13",
@@ -491,7 +491,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "「日本人＝일본 사람」を声に出して3回。最初の音節「일」を思い出す手がかりにする。"
   },
   {
     "id": "5v14",
@@ -510,7 +510,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "「日本」と同じ漢字語。일＝日、본＝本。"
   },
   {
     "id": "5vr14",
@@ -529,7 +529,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "「日本」と同じ漢字語。일＝日、본＝本。"
   },
   {
     "id": "5v15",
@@ -548,7 +548,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "日本語の外来語「デザイナー」に近い音。韓国語では「디자이너」と音節ごとに区切って読む。"
   },
   {
     "id": "5vr15",
@@ -567,7 +567,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "日本語の外来語「デザイナー」に近い音。韓国語では「디자이너」と音節ごとに区切って読む。"
   },
   {
     "id": "5v16",
@@ -586,7 +586,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "「韓国」と同じ漢字語。한＝韓、국＝国。"
   },
   {
     "id": "5vr16",
@@ -605,7 +605,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "「韓国」と同じ漢字語。한＝韓、국＝国。"
   },
   {
     "id": "5v17",
@@ -624,7 +624,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "「アメリカ」。漢字では美国に由来するので 미＋국 と覚える。"
   },
   {
     "id": "5vr17",
@@ -643,7 +643,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "「アメリカ」。漢字では美国に由来するので 미＋국 と覚える。"
   },
   {
     "id": "5v18",
@@ -662,7 +662,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "「医者・医師」と同じ漢字語。의＝医、사＝師。"
   },
   {
     "id": "5vr18",
@@ -681,7 +681,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "「医者・医師」と同じ漢字語。의＝医、사＝師。"
   },
   {
     "id": "5v19",
@@ -700,7 +700,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "「中国」と同じ漢字語。중＝中、국＝国。"
   },
   {
     "id": "5vr19",
@@ -719,7 +719,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "「中国」と同じ漢字語。중＝中、국＝国。"
   },
   {
     "id": "5v20",
@@ -738,7 +738,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "회사＝会社、원＝員。「会社員」と同じ組み立て。"
   },
   {
     "id": "5vr20",
@@ -757,7 +757,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "회사＝会社、원＝員。「会社員」と同じ組み立て。"
   },
   {
     "id": "5v21",
@@ -776,7 +776,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "日本語の外来語「エンジニア」に近い音。韓国語では「엔지니어」と音節ごとに区切って読む。"
   },
   {
     "id": "5vr21",
@@ -795,7 +795,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "日本語の外来語「エンジニア」に近い音。韓国語では「엔지니어」と音節ごとに区切って読む。"
   },
   {
     "id": "5v22",
@@ -814,7 +814,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "日本語の外来語「カナダ」に近い音。韓国語では「캐나다」と音節ごとに区切って読む。"
   },
   {
     "id": "5vr22",
@@ -833,7 +833,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "日本語の外来語「カナダ」に近い音。韓国語では「캐나다」と音節ごとに区切って読む。"
   },
   {
     "id": "5v23",
@@ -852,7 +852,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "간호＝看護、사＝師。「看護師」と同じ漢字語。"
   },
   {
     "id": "5vr23",
@@ -871,7 +871,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "간호＝看護、사＝師。「看護師」と同じ漢字語。"
   },
   {
     "id": "5v24",
@@ -890,7 +890,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "日本語の外来語「ドイツ」に近い音。韓国語では「독일」と音節ごとに区切って読む。"
   },
   {
     "id": "5vr24",
@@ -909,7 +909,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "日本語の外来語「ドイツ」に近い音。韓国語では「독일」と音節ごとに区切って読む。"
   },
   {
     "id": "5v25",
@@ -928,7 +928,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "「職業」と同じ漢字語。직＝職、업＝業。"
   },
   {
     "id": "5vr25",
@@ -947,7 +947,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "「職業」と同じ漢字語。직＝職、업＝業。"
   },
   {
     "id": "5v26",
@@ -966,7 +966,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "日本語の外来語「ロシア」に近い音。韓国語では「러시아」と音節ごとに区切って読む。"
   },
   {
     "id": "5vr26",
@@ -985,7 +985,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "日本語の外来語「ロシア」に近い音。韓国語では「러시아」と音節ごとに区切って読む。"
   },
   {
     "id": "5v27",
@@ -1004,7 +1004,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "日本語の外来語「ベトナム」に近い音。韓国語では「베트남」と音節ごとに区切って読む。"
   },
   {
     "id": "5vr27",
@@ -1023,7 +1023,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "日本語の外来語「ベトナム」に近い音。韓国語では「베트남」と音節ごとに区切って読む。"
   },
   {
     "id": "5v28",
@@ -1042,7 +1042,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "「主婦＝주부」を声に出して3回。最初の音節「주」を思い出す手がかりにする。"
   },
   {
     "id": "5vr28",
@@ -1061,7 +1061,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "「主婦＝주부」を声に出して3回。最初の音節「주」を思い出す手がかりにする。"
   },
   {
     "id": "5v29",
@@ -1080,7 +1080,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "日本語の外来語「フィリピン」に近い音。韓国語では「필리핀」と音節ごとに区切って読む。"
   },
   {
     "id": "5vr29",
@@ -1099,7 +1099,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "日本語の外来語「フィリピン」に近い音。韓国語では「필리핀」と音節ごとに区切って読む。"
   },
   {
     "id": "5v30",
@@ -1118,7 +1118,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "「故郷」と同じ漢字語。고＝故、향＝郷。"
   },
   {
     "id": "5vr30",
@@ -1137,7 +1137,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "「故郷」と同じ漢字語。고＝故、향＝郷。"
   },
   {
     "id": "5v31",
@@ -1156,7 +1156,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "「どこ」。어디에＝どこに、어디에서＝どこで、と助詞ごと覚える。"
   },
   {
     "id": "5vr31",
@@ -1175,7 +1175,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "「どこ」。어디에＝どこに、어디에서＝どこで、と助詞ごと覚える。"
   },
   {
     "id": "5v32",
@@ -1194,7 +1194,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "「人」。国名＋사람 で「～人」になる。"
   },
   {
     "id": "5vr32",
@@ -1213,7 +1213,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "「人」。国名＋사람 で「～人」になる。"
   },
   {
     "id": "5v33",
@@ -1232,7 +1232,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "「歌手＝가수」を声に出して3回。最初の音節「가」を思い出す手がかりにする。"
   },
   {
     "id": "5vr33",
@@ -1251,7 +1251,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "「歌手＝가수」を声に出して3回。最初の音節「가」を思い出す手がかりにする。"
   },
   {
     "id": "5v34",
@@ -1270,7 +1270,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "「大統領＝대통령」を声に出して3回。最初の音節「대」を思い出す手がかりにする。"
   },
   {
     "id": "5vr34",
@@ -1289,7 +1289,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "「大統領＝대통령」を声に出して3回。最初の音節「대」を思い出す手がかりにする。"
   },
   {
     "id": "5v35",
@@ -1308,7 +1308,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "日本語の外来語「ゴルフ選手」に近い音。韓国語では「골프 선수」と音節ごとに区切って読む。"
   },
   {
     "id": "5vr35",
@@ -1327,7 +1327,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "日本語の外来語「ゴルフ選手」に近い音。韓国語では「골프 선수」と音節ごとに区切って読む。"
   },
   {
     "id": "5g1",
@@ -1346,7 +1346,7 @@ window.QUESTION_BANK = [
     "tags": [
       "particle"
     ],
-    "hint": ""
+    "hint": "은/는 は「～は」。前の名詞が母音終わりなら 는、子音終わりなら 은。저 は母音終わりなので 저는。"
   },
   {
     "id": "5g2",
@@ -1365,7 +1365,7 @@ window.QUESTION_BANK = [
     "tags": [
       "particle"
     ],
-    "hint": ""
+    "hint": "은/는 は「～は」。이름 は 받침 ㅁ で終わるので 이름은。"
   },
   {
     "id": "5g3",
@@ -1384,7 +1384,7 @@ window.QUESTION_BANK = [
     "tags": [
       "sentence"
     ],
-    "hint": ""
+    "hint": "名詞＋입니까? で丁寧な疑問「～ですか」。친구＋입니까?。"
   },
   {
     "id": "5g4",
@@ -1403,7 +1403,7 @@ window.QUESTION_BANK = [
     "tags": [
       "negative"
     ],
-    "hint": ""
+    "hint": "名詞＋이/가 아닙니다 で「～ではありません」。선생님 は子音終わりなので 이。"
   },
   {
     "id": "5g5",
@@ -1422,7 +1422,7 @@ window.QUESTION_BANK = [
     "tags": [
       "particle"
     ],
-    "hint": ""
+    "hint": "도 は「～も」。元の助詞の代わりに名詞へ直接つける。"
   },
   {
     "id": "5g6",
@@ -1444,7 +1444,7 @@ window.QUESTION_BANK = [
     "tags": [
       "conversation"
     ],
-    "hint": ""
+    "hint": "「お名前は何ですか」への答えは 저는＋名前＋입니다。○○だけ自分の名前に置き換える。"
   },
   {
     "id": "6v1",
@@ -1464,7 +1464,7 @@ window.QUESTION_BANK = [
       "vocab",
       "verb"
     ],
-    "hint": ""
+    "hint": "공부＝勉強＋하다＝する。「勉強する」をそのまま組み立てる。"
   },
   {
     "id": "6v2",
@@ -1484,7 +1484,7 @@ window.QUESTION_BANK = [
       "vocab",
       ""
     ],
-    "hint": ""
+    "hint": "「何」。会話では 뭐 と短くなることも多い。"
   },
   {
     "id": "6v3",
@@ -1504,7 +1504,7 @@ window.QUESTION_BANK = [
       "vocab",
       "verb"
     ],
-    "hint": ""
+    "hint": "「見る」。語幹 보- を使い、丁寧形は 봅니다。"
   },
   {
     "id": "6v4",
@@ -1524,7 +1524,7 @@ window.QUESTION_BANK = [
       "vocab",
       ""
     ],
-    "hint": ""
+    "hint": "日本語の外来語「ドラマ」に近い音。韓国語では「드라마」と音節ごとに区切って読む。"
   },
   {
     "id": "6v5",
@@ -1544,7 +1544,7 @@ window.QUESTION_BANK = [
       "vocab",
       "verb"
     ],
-    "hint": ""
+    "hint": "辞書形は「재미있다」。最後の 다 を外した「재미있-」が語幹なので、活用するときの土台にする。"
   },
   {
     "id": "6v6",
@@ -1564,7 +1564,7 @@ window.QUESTION_BANK = [
       "vocab",
       ""
     ],
-    "hint": ""
+    "hint": "日本語の外来語「テレビ」に近い音。韓国語では「텔레비전」と音節ごとに区切って読む。"
   },
   {
     "id": "6v7",
@@ -1584,7 +1584,7 @@ window.QUESTION_BANK = [
       "vocab",
       ""
     ],
-    "hint": ""
+    "hint": "「とても＝아주」を声に出して3回。最初の音節「아」を思い出す手がかりにする。"
   },
   {
     "id": "6v8",
@@ -1604,7 +1604,7 @@ window.QUESTION_BANK = [
       "vocab",
       "verb"
     ],
-    "hint": ""
+    "hint": "「食べる」。語幹 먹-。目的語には 을/를 をつける。"
   },
   {
     "id": "6v9",
@@ -1624,7 +1624,7 @@ window.QUESTION_BANK = [
       "vocab",
       "verb"
     ],
-    "hint": ""
+    "hint": "辞書形は「바쁘다」。最後の 다 を外した「바쁘-」が語幹なので、活用するときの土台にする。"
   },
   {
     "id": "6v10",
@@ -1644,7 +1644,7 @@ window.QUESTION_BANK = [
       "vocab",
       ""
     ],
-    "hint": ""
+    "hint": "「学生」と同じ漢字語。학＝学、생＝生と分けると覚えやすい。"
   },
   {
     "id": "6v11",
@@ -1664,7 +1664,7 @@ window.QUESTION_BANK = [
       "vocab",
       "verb"
     ],
-    "hint": ""
+    "hint": "「いる・ある」。人にも物にも使える。反対は 없다。"
   },
   {
     "id": "6v12",
@@ -1684,7 +1684,7 @@ window.QUESTION_BANK = [
       "vocab",
       "verb"
     ],
-    "hint": ""
+    "hint": "「いない・ない」。反対の 있다 と必ず対で覚える。"
   },
   {
     "id": "6v13",
@@ -1704,7 +1704,7 @@ window.QUESTION_BANK = [
       "vocab",
       "verb"
     ],
-    "hint": ""
+    "hint": "「買う」。語幹 사-。사람（人）と混同しない。"
   },
   {
     "id": "6v14",
@@ -1724,7 +1724,7 @@ window.QUESTION_BANK = [
       "vocab",
       "verb"
     ],
-    "hint": ""
+    "hint": "辞書形は「어렵다」。最後の 다 を外した「어렵-」が語幹なので、活用するときの土台にする。"
   },
   {
     "id": "6v15",
@@ -1744,7 +1744,7 @@ window.QUESTION_BANK = [
       "vocab",
       ""
     ],
-    "hint": ""
+    "hint": "「ご飯＝밥」を声に出して3回。最初の音節「밥」を思い出す手がかりにする。"
   },
   {
     "id": "6v16",
@@ -1764,7 +1764,7 @@ window.QUESTION_BANK = [
       "vocab",
       ""
     ],
-    "hint": ""
+    "hint": "「今日」。오늘 지금＝今日、今、のように時間語と一緒に覚える。"
   },
   {
     "id": "6v17",
@@ -1784,7 +1784,7 @@ window.QUESTION_BANK = [
       "vocab",
       ""
     ],
-    "hint": ""
+    "hint": "「いつ」。언제 갑니까?＝いつ行きますか、の形で覚える。"
   },
   {
     "id": "6v18",
@@ -1804,7 +1804,7 @@ window.QUESTION_BANK = [
       "vocab",
       ""
     ],
-    "hint": ""
+    "hint": "「誰」。主語になると 누구가 ではなく 누가。"
   },
   {
     "id": "6v19",
@@ -1824,7 +1824,7 @@ window.QUESTION_BANK = [
       "vocab",
       ""
     ],
-    "hint": ""
+    "hint": "「どこ」。어디에＝どこに、어디에서＝どこで、と助詞ごと覚える。"
   },
   {
     "id": "6v20",
@@ -1844,7 +1844,7 @@ window.QUESTION_BANK = [
       "vocab",
       ""
     ],
-    "hint": ""
+    "hint": "名詞の前につける「どの」。어느 나라＝どの国。"
   },
   {
     "id": "6v21",
@@ -1864,7 +1864,7 @@ window.QUESTION_BANK = [
       "vocab",
       ""
     ],
-    "hint": ""
+    "hint": "「映画＝영화」を声に出して3回。最初の音節「영」を思い出す手がかりにする。"
   },
   {
     "id": "6v22",
@@ -1884,7 +1884,7 @@ window.QUESTION_BANK = [
       "vocab",
       ""
     ],
-    "hint": ""
+    "hint": "日本語の外来語「カルビ」に近い音。韓国語では「갈비」と音節ごとに区切って読む。"
   },
   {
     "id": "6v23",
@@ -1904,7 +1904,7 @@ window.QUESTION_BANK = [
       "vocab",
       ""
     ],
-    "hint": ""
+    "hint": "日本語の外来語「コーヒー」に近い音。韓国語では「커피」と音節ごとに区切って読む。"
   },
   {
     "id": "6v24",
@@ -1924,7 +1924,7 @@ window.QUESTION_BANK = [
       "vocab",
       ""
     ],
-    "hint": ""
+    "hint": "「水」。短い一音節なので、받침 ㄹ までしっかり書く。"
   },
   {
     "id": "6v25",
@@ -1944,7 +1944,7 @@ window.QUESTION_BANK = [
       "vocab",
       ""
     ],
-    "hint": ""
+    "hint": "日本語の外来語「ラジオ」に近い音。韓国語では「라디오」と音節ごとに区切って読む。"
   },
   {
     "id": "6v26",
@@ -1964,7 +1964,7 @@ window.QUESTION_BANK = [
       "vocab",
       ""
     ],
-    "hint": ""
+    "hint": "「音楽＝음악」を声に出して3回。最初の音節「음」を思い出す手がかりにする。"
   },
   {
     "id": "6v27",
@@ -1984,7 +1984,7 @@ window.QUESTION_BANK = [
       "vocab",
       ""
     ],
-    "hint": ""
+    "hint": "「英語＝영어」を声に出して3回。最初の音節「영」を思い出す手がかりにする。"
   },
   {
     "id": "6v28",
@@ -2004,7 +2004,7 @@ window.QUESTION_BANK = [
       "vocab",
       ""
     ],
-    "hint": ""
+    "hint": "「韓国語＝한국어」を声に出して3回。最初の音節「한」を思い出す手がかりにする。"
   },
   {
     "id": "6v29",
@@ -2024,7 +2024,7 @@ window.QUESTION_BANK = [
       "vocab",
       ""
     ],
-    "hint": ""
+    "hint": "日本語の外来語「カメラ」に近い音。韓国語では「카메라」と音節ごとに区切って読む。"
   },
   {
     "id": "6v30",
@@ -2044,7 +2044,7 @@ window.QUESTION_BANK = [
       "vocab",
       ""
     ],
-    "hint": ""
+    "hint": "日本語の外来語「カバン」に近い音。韓国語では「가방」と音節ごとに区切って読む。"
   },
   {
     "id": "6v31",
@@ -2064,7 +2064,7 @@ window.QUESTION_BANK = [
       "vocab",
       ""
     ],
-    "hint": ""
+    "hint": "「雑誌＝잡지」を声に出して3回。最初の音節「잡」を思い出す手がかりにする。"
   },
   {
     "id": "6v32",
@@ -2084,7 +2084,7 @@ window.QUESTION_BANK = [
       "vocab",
       ""
     ],
-    "hint": ""
+    "hint": "「本」。받침 ㄱ まで含めて 책。책상（机）にも入っている。"
   },
   {
     "id": "6v33",
@@ -2104,7 +2104,7 @@ window.QUESTION_BANK = [
       "vocab",
       ""
     ],
-    "hint": ""
+    "hint": "「手紙」。편지를 쓰다＝手紙を書く、でセットにする。"
   },
   {
     "id": "6v34",
@@ -2124,7 +2124,7 @@ window.QUESTION_BANK = [
       "vocab",
       ""
     ],
-    "hint": ""
+    "hint": "日本語の外来語「メール」に近い音。韓国語では「이메일」と音節ごとに区切って読む。"
   },
   {
     "id": "6v35",
@@ -2144,7 +2144,7 @@ window.QUESTION_BANK = [
       "vocab",
       ""
     ],
-    "hint": ""
+    "hint": "「写真」と同じ漢字語。사진을 찍다＝写真を撮る。"
   },
   {
     "id": "6v36",
@@ -2164,7 +2164,7 @@ window.QUESTION_BANK = [
       "vocab",
       ""
     ],
-    "hint": ""
+    "hint": "日本語の外来語「デート」に近い音。韓国語では「데이트」と音節ごとに区切って読む。"
   },
   {
     "id": "6v37",
@@ -2184,7 +2184,7 @@ window.QUESTION_BANK = [
       "vocab",
       ""
     ],
-    "hint": ""
+    "hint": "日本語の外来語「ショッピング」に近い音。韓国語では「쇼핑」と音節ごとに区切って読む。"
   },
   {
     "id": "6v38",
@@ -2204,7 +2204,7 @@ window.QUESTION_BANK = [
       "vocab",
       "verb"
     ],
-    "hint": ""
+    "hint": "「飲む」。물을 마시다＝水を飲む、を丸ごと覚える。"
   },
   {
     "id": "6v39",
@@ -2224,7 +2224,7 @@ window.QUESTION_BANK = [
       "vocab",
       "verb"
     ],
-    "hint": ""
+    "hint": "「聞く」。語幹の 받침 ㄷ に注意。"
   },
   {
     "id": "6v40",
@@ -2244,7 +2244,7 @@ window.QUESTION_BANK = [
       "vocab",
       "verb"
     ],
-    "hint": ""
+    "hint": "「読む」。綴りは 읽다。받침が二つあるので見た目で覚える。"
   },
   {
     "id": "6v41",
@@ -2264,7 +2264,7 @@ window.QUESTION_BANK = [
       "vocab",
       "verb"
     ],
-    "hint": ""
+    "hint": "「書く」。短い語なので ㅆ と ㅡ の形を意識する。"
   },
   {
     "id": "6v42",
@@ -2284,7 +2284,7 @@ window.QUESTION_BANK = [
       "vocab",
       "verb"
     ],
-    "hint": ""
+    "hint": "「撮る」。사진을 찍다＝写真を撮る。"
   },
   {
     "id": "6v43",
@@ -2304,7 +2304,7 @@ window.QUESTION_BANK = [
       "vocab",
       "verb"
     ],
-    "hint": ""
+    "hint": "「する」。名詞＋하다 で多くの動詞を作れる。"
   },
   {
     "id": "6v44",
@@ -2324,7 +2324,7 @@ window.QUESTION_BANK = [
       "vocab",
       ""
     ],
-    "hint": ""
+    "hint": "「服」。最後は 받침 ㅅ。短いので一文字の形ごと覚える。"
   },
   {
     "id": "6v45",
@@ -2344,7 +2344,7 @@ window.QUESTION_BANK = [
       "vocab",
       "verb"
     ],
-    "hint": ""
+    "hint": "맛＝味＋있다＝ある。「味がある」→おいしい。"
   },
   {
     "id": "6v46",
@@ -2364,7 +2364,7 @@ window.QUESTION_BANK = [
       "vocab",
       "verb"
     ],
-    "hint": ""
+    "hint": "「（値段が）高い」。싸다（安い）と対で覚える。"
   },
   {
     "id": "6v47",
@@ -2384,7 +2384,7 @@ window.QUESTION_BANK = [
       "vocab",
       ""
     ],
-    "hint": ""
+    "hint": "日本語の外来語「ニュース」に近い音。韓国語では「뉴스」と音節ごとに区切って読む。"
   },
   {
     "id": "6v48",
@@ -2404,7 +2404,7 @@ window.QUESTION_BANK = [
       "vocab",
       ""
     ],
-    "hint": ""
+    "hint": "日本語の外来語「パン」に近い音。韓国語では「빵」と音節ごとに区切って読む。"
   },
   {
     "id": "6v49",
@@ -2424,7 +2424,7 @@ window.QUESTION_BANK = [
       "vocab",
       ""
     ],
-    "hint": ""
+    "hint": "日本語の外来語「キムチ」に近い音。韓国語では「김치」と音節ごとに区切って読む。"
   },
   {
     "id": "6v50",
@@ -2444,7 +2444,7 @@ window.QUESTION_BANK = [
       "vocab",
       ""
     ],
-    "hint": ""
+    "hint": "「今」。지금 무엇을 합니까?＝今何をしますか。"
   },
   {
     "id": "6v51",
@@ -2464,7 +2464,7 @@ window.QUESTION_BANK = [
       "vocab",
       ""
     ],
-    "hint": ""
+    "hint": "「毎日」と同じ漢字語。매＝毎、일＝日。"
   },
   {
     "id": "6v52",
@@ -2484,7 +2484,7 @@ window.QUESTION_BANK = [
       "vocab",
       ""
     ],
-    "hint": ""
+    "hint": "日本語の外来語「アルバイト」に近い音。韓国語では「아르바이트」と音節ごとに区切って読む。"
   },
   {
     "id": "6v53",
@@ -2504,7 +2504,7 @@ window.QUESTION_BANK = [
       "vocab",
       ""
     ],
-    "hint": ""
+    "hint": "「ちょっと、少し＝좀」を声に出して3回。最初の音節「좀」を思い出す手がかりにする。"
   },
   {
     "id": "6g1",
@@ -2524,7 +2524,7 @@ window.QUESTION_BANK = [
       "verb",
       "conjugation"
     ],
-    "hint": ""
+    "hint": "보다 の語幹 보- に ㅂ니다 がつき、母音が縮まって 봅니다。"
   },
   {
     "id": "6g2",
@@ -2544,7 +2544,7 @@ window.QUESTION_BANK = [
       "verb",
       "conjugation"
     ],
-    "hint": ""
+    "hint": "받침 のある語幹には 습니까?。먹-＋습니까?＝먹습니까?。"
   },
   {
     "id": "6g3",
@@ -2564,7 +2564,7 @@ window.QUESTION_BANK = [
       "negative",
       "verb"
     ],
-    "hint": ""
+    "hint": "動詞語幹＋지 않습니다 で丁寧な否定。공부하-＋지 않습니다。"
   },
   {
     "id": "6g4",
@@ -2583,7 +2583,7 @@ window.QUESTION_BANK = [
     "tags": [
       "particle"
     ],
-    "hint": ""
+    "hint": "目的語の助詞「～を」。前が子音終わりなら 을。텔레비전 は ㄴ 終わり。"
   },
   {
     "id": "6g5",
@@ -2602,7 +2602,7 @@ window.QUESTION_BANK = [
     "tags": [
       "particle"
     ],
-    "hint": ""
+    "hint": "目的語の助詞「～を」。前が母音終わりなら 를。드라마 は母音終わり。"
   },
   {
     "id": "6g6",
@@ -2622,7 +2622,7 @@ window.QUESTION_BANK = [
     "tags": [
       "conversation"
     ],
-    "hint": ""
+    "hint": "質問の 무엇을 を、具体的な目的語 드라마를 に置き換えて答える。"
   },
   {
     "id": "6g7",
@@ -2642,7 +2642,7 @@ window.QUESTION_BANK = [
       "negative",
       "priority"
     ],
-    "hint": ""
+    "hint": "形容詞語幹＋지 않습니다 で「～くありません」。어렵-＋지 않습니다。"
   },
   {
     "id": "6p1",
@@ -2665,7 +2665,7 @@ window.QUESTION_BANK = [
       "priority",
       "sentence"
     ],
-    "hint": ""
+    "hint": "はいなら 네＋肯定形、いいえなら 아니요＋否定形。質問の語尾だけ答えの語尾に変える。"
   },
   {
     "id": "7v1",
@@ -2684,7 +2684,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "「寄宿舎・寮」と同じ漢字語。기숙＝寄宿、사＝舎。"
   },
   {
     "id": "7v2",
@@ -2703,7 +2703,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "「部屋」。방 안＝部屋の中、방에＝部屋に。"
   },
   {
     "id": "7v3",
@@ -2722,7 +2722,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "「いる・ある」。人にも物にも使える。反対は 없다。"
   },
   {
     "id": "7v4",
@@ -2741,7 +2741,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "「いない・ない」。反対の 있다 と必ず対で覚える。"
   },
   {
     "id": "7v5",
@@ -2760,7 +2760,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "「ベッド」。침＝寝具、대＝台というイメージで覚える。"
   },
   {
     "id": "7v6",
@@ -2779,7 +2779,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "책＝本＋상＝机・台。本を置く場所→机。"
   },
   {
     "id": "7v7",
@@ -2798,7 +2798,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "日本語の外来語「ルームメイト」に近い音。韓国語では「룸메이트」と音節ごとに区切って読む。"
   },
   {
     "id": "7v8",
@@ -2817,7 +2817,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "辞書形は「그렇다」。最後の 다 を外した「그렇-」が語幹なので、活用するときの土台にする。"
   },
   {
     "id": "7v9",
@@ -2836,7 +2836,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "「人」。国名＋사람 で「～人」になる。"
   },
   {
     "id": "7v10",
@@ -2855,7 +2855,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "「宿題」と同じ漢字語。숙＝宿、제＝題。"
   },
   {
     "id": "7v11",
@@ -2874,7 +2874,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "「授業」と同じ漢字語。수＝授、업＝業。"
   },
   {
     "id": "7v12",
@@ -2893,7 +2893,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "年下のきょうだい。弟にも妹にも使える。"
   },
   {
     "id": "7v13",
@@ -2912,7 +2912,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "女性から見た実の兄・親しい年上男性。話し手が女性のときに使う。"
   },
   {
     "id": "7v14",
@@ -2931,7 +2931,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "女性から見た実の姉・親しい年上女性。話し手が女性のときに使う。"
   },
   {
     "id": "7v15",
@@ -2950,7 +2950,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "「遊ぶ」。ㄹ語幹なので活用で ㄹ が落ちることがある。"
   },
   {
     "id": "7v16",
@@ -2969,7 +2969,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "「遠い」。ㄹ語幹。反対の 가깝다（近い）と対で覚える。"
   },
   {
     "id": "7v17",
@@ -2988,7 +2988,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "「作る」。ㄹ語幹で、만듭니다 のとき ㄹ が落ちる。"
   },
   {
     "id": "7v18",
@@ -3007,7 +3007,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "「開ける」。ㄹ語幹。문을 열다＝ドアを開ける。"
   },
   {
     "id": "7v19",
@@ -3026,7 +3026,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "辞書形は「졸다」。最後の 다 を外した「졸-」が語幹なので、活用するときの土台にする。"
   },
   {
     "id": "7v20",
@@ -3045,7 +3045,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "「知る・分かる」。ㄹ語幹。알겠습니다＝分かりました。"
   },
   {
     "id": "7v21",
@@ -3064,7 +3064,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "「売る」。사다（買う）と対で覚える。"
   },
   {
     "id": "7v22",
@@ -3083,7 +3083,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "「長い」。ㄹ語幹。反対は 짧다（短い）。"
   },
   {
     "id": "7v23",
@@ -3102,7 +3102,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "「住む・暮らす」。ㄹ語幹で 삽니다 のとき ㄹ が落ちる。"
   },
   {
     "id": "7v24",
@@ -3121,7 +3121,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "힘＝力＋들다＝入るイメージ。「力が要る」→しんどい。"
   },
   {
     "id": "7v25",
@@ -3140,7 +3140,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "「犬」。短い一音節。고양이（猫）と対で覚える。"
   },
   {
     "id": "7v26",
@@ -3159,7 +3159,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "「猫」。音を 고-양-이 の3つに区切って覚える。"
   },
   {
     "id": "7v27",
@@ -3178,7 +3178,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "人の丁寧な言い方「方」。사람 より敬意がある。"
   },
   {
     "id": "7v28",
@@ -3198,7 +3198,7 @@ window.QUESTION_BANK = [
       "vocab",
       "demonstrative"
     ],
-    "hint": ""
+    "hint": "話し手に近い「この」。이것＝これ、여기＝ここ、と同じ近称グループ。"
   },
   {
     "id": "7v29",
@@ -3218,7 +3218,7 @@ window.QUESTION_BANK = [
       "vocab",
       "demonstrative"
     ],
-    "hint": ""
+    "hint": "聞き手に近い・既出の「その」。그것＝それ、거기＝そこ。"
   },
   {
     "id": "7v30",
@@ -3238,7 +3238,7 @@ window.QUESTION_BANK = [
       "vocab",
       "demonstrative"
     ],
-    "hint": ""
+    "hint": "話し手と聞き手の両方から遠い「あの」。저것＝あれ、저기＝あそこ。"
   },
   {
     "id": "7v31",
@@ -3258,7 +3258,7 @@ window.QUESTION_BANK = [
       "vocab",
       "demonstrative"
     ],
-    "hint": ""
+    "hint": "名詞の前につける「どの」。어느 나라＝どの国。"
   },
   {
     "id": "7v32",
@@ -3278,7 +3278,7 @@ window.QUESTION_BANK = [
       "vocab",
       "demonstrative"
     ],
-    "hint": ""
+    "hint": "이＝この＋것＝もの。「このもの」→これ。"
   },
   {
     "id": "7v33",
@@ -3298,7 +3298,7 @@ window.QUESTION_BANK = [
       "vocab",
       "demonstrative"
     ],
-    "hint": ""
+    "hint": "그＝その＋것＝もの。「そのもの」→それ。"
   },
   {
     "id": "7v34",
@@ -3318,7 +3318,7 @@ window.QUESTION_BANK = [
       "vocab",
       "demonstrative"
     ],
-    "hint": ""
+    "hint": "저＝あの＋것＝もの。「あのもの」→あれ。"
   },
   {
     "id": "7v35",
@@ -3338,7 +3338,7 @@ window.QUESTION_BANK = [
       "vocab",
       "demonstrative"
     ],
-    "hint": ""
+    "hint": "어느＝どの＋것＝もの。「どのもの」→どれ。"
   },
   {
     "id": "7v36",
@@ -3358,7 +3358,7 @@ window.QUESTION_BANK = [
       "vocab",
       "demonstrative"
     ],
-    "hint": ""
+    "hint": "話し手に近い「ここ」。이것 と同じ近称。"
   },
   {
     "id": "7v37",
@@ -3378,7 +3378,7 @@ window.QUESTION_BANK = [
       "vocab",
       "demonstrative"
     ],
-    "hint": ""
+    "hint": "聞き手に近い「そこ」。그것 と同じ中称。"
   },
   {
     "id": "7v38",
@@ -3398,7 +3398,7 @@ window.QUESTION_BANK = [
       "vocab",
       "demonstrative"
     ],
-    "hint": ""
+    "hint": "両方から遠い「あそこ」。저것 と同じ遠称。"
   },
   {
     "id": "7v39",
@@ -3418,7 +3418,7 @@ window.QUESTION_BANK = [
       "vocab",
       "demonstrative"
     ],
-    "hint": ""
+    "hint": "「どこ」。어디에＝どこに、어디에서＝どこで、と助詞ごと覚える。"
   },
   {
     "id": "7v40",
@@ -3437,7 +3437,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "「ところ・場所」。이곳＝ここ、この場所。"
   },
   {
     "id": "7v41",
@@ -3456,7 +3456,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "「時計」と同じ漢字語。시＝時、계＝計。"
   },
   {
     "id": "7v42",
@@ -3475,7 +3475,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "「辞書」と同じ漢字語。사＝辞、전＝典。"
   },
   {
     "id": "7v43",
@@ -3494,7 +3494,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "日本語の外来語「コンピュータ」に近い音。韓国語では「컴퓨터」と音節ごとに区切って読む。"
   },
   {
     "id": "7v44",
@@ -3513,7 +3513,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "日本語の外来語「ノート」に近い音。韓国語では「노트」と音節ごとに区切って読む。"
   },
   {
     "id": "7v45",
@@ -3532,7 +3532,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "「鉛筆＝연필」を声に出して3回。最初の音節「연」を思い出す手がかりにする。"
   },
   {
     "id": "7v46",
@@ -3551,7 +3551,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "日本語の外来語「消しゴム」に近い音。韓国語では「지우개」と音節ごとに区切って読む。"
   },
   {
     "id": "7v47",
@@ -3570,7 +3570,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "日本語の外来語「カバン」に近い音。韓国語では「가방」と音節ごとに区切って読む。"
   },
   {
     "id": "7v48",
@@ -3589,7 +3589,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "「傘＝우산」を声に出して3回。最初の音節「우」を思い出す手がかりにする。"
   },
   {
     "id": "7v49",
@@ -3608,7 +3608,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "「木＝나무」を声に出して3回。最初の音節「나」を思い出す手がかりにする。"
   },
   {
     "id": "7v50",
@@ -3627,7 +3627,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "「自動車＝자동차」を声に出して3回。最初の音節「자」を思い出す手がかりにする。"
   },
   {
     "id": "7v51",
@@ -3646,7 +3646,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "「教室」と同じ漢字語。교＝教、실＝室。"
   },
   {
     "id": "7v52",
@@ -3665,7 +3665,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "「誰」。主語になると 누구가 ではなく 누가。"
   },
   {
     "id": "7v53",
@@ -3684,7 +3684,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "누구（誰）が主語になると 누가。丸ごと例外形として覚える。"
   },
   {
     "id": "7v54",
@@ -3703,7 +3703,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "나의（僕・私の）の縮約。親しい言い方。"
   },
   {
     "id": "7v55",
@@ -3722,7 +3722,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "저의（私の）の縮約。丁寧な言い方。"
   },
   {
     "id": "7v56",
@@ -3741,7 +3741,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "「手帳＝수첩」を声に出して3回。最初の音節「수」を思い出す手がかりにする。"
   },
   {
     "id": "7v57",
@@ -3760,7 +3760,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "日本語の外来語「エアコン」に近い音。韓国語では「에어컨」と音節ごとに区切って読む。"
   },
   {
     "id": "7v58",
@@ -3779,7 +3779,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "「椅子」と同じ漢字語。의＝椅、자＝子。"
   },
   {
     "id": "7v59",
@@ -3798,7 +3798,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "「財布」。지갑 안＝財布の中、で位置表現にも使える。"
   },
   {
     "id": "7v60",
@@ -3817,7 +3817,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "「携帯電話＝핸드폰」を声に出して3回。最初の音節「핸」を思い出す手がかりにする。"
   },
   {
     "id": "7v61",
@@ -3837,7 +3837,7 @@ window.QUESTION_BANK = [
       "vocab",
       "position"
     ],
-    "hint": ""
+    "hint": "「上」。책상 위＝机の上。"
   },
   {
     "id": "7v62",
@@ -3857,7 +3857,7 @@ window.QUESTION_BANK = [
       "vocab",
       "position"
     ],
-    "hint": ""
+    "hint": "「下」。基準より下の広い位置を表しやすい。"
   },
   {
     "id": "7v63",
@@ -3877,7 +3877,7 @@ window.QUESTION_BANK = [
       "vocab",
       "position"
     ],
-    "hint": ""
+    "hint": "「真下・下側」。아래 と似るが、接している下のイメージ。"
   },
   {
     "id": "7v64",
@@ -3897,7 +3897,7 @@ window.QUESTION_BANK = [
       "vocab",
       "position"
     ],
-    "hint": ""
+    "hint": "「前」。받침 ㅍ まで含めて一音節。"
   },
   {
     "id": "7v65",
@@ -3917,7 +3917,7 @@ window.QUESTION_BANK = [
       "vocab",
       "position"
     ],
-    "hint": ""
+    "hint": "「後ろ」。앞（前）と対で覚える。"
   },
   {
     "id": "7v66",
@@ -3937,7 +3937,7 @@ window.QUESTION_BANK = [
       "vocab",
       "position"
     ],
-    "hint": ""
+    "hint": "「中」。部屋など囲まれた広めの空間の中。"
   },
   {
     "id": "7v67",
@@ -3957,7 +3957,7 @@ window.QUESTION_BANK = [
       "vocab",
       "position"
     ],
-    "hint": ""
+    "hint": "「中・内部」。かばんや財布など、より内側のイメージ。"
   },
   {
     "id": "7v68",
@@ -3977,7 +3977,7 @@ window.QUESTION_BANK = [
       "vocab",
       "position"
     ],
-    "hint": ""
+    "hint": "「外」。받침 ㄲ までしっかり書く。안（中）と対。"
   },
   {
     "id": "7v69",
@@ -3997,7 +3997,7 @@ window.QUESTION_BANK = [
       "vocab",
       "position"
     ],
-    "hint": ""
+    "hint": "「横・隣」。의자 옆＝椅子の横。"
   },
   {
     "id": "7v70",
@@ -4017,7 +4017,7 @@ window.QUESTION_BANK = [
       "vocab",
       "position"
     ],
-    "hint": ""
+    "hint": "「間」。A와 B 사이＝AとBの間。"
   },
   {
     "id": "7v71",
@@ -4037,7 +4037,7 @@ window.QUESTION_BANK = [
       "vocab",
       "position"
     ],
-    "hint": ""
+    "hint": "왼＝左＋쪽＝側。「左側」。"
   },
   {
     "id": "7v72",
@@ -4057,7 +4057,7 @@ window.QUESTION_BANK = [
       "vocab",
       "position"
     ],
-    "hint": ""
+    "hint": "오른＝右＋쪽＝側。「右側」。"
   },
   {
     "id": "7v73",
@@ -4076,7 +4076,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "場所・時の「～に」。存在場所では ～에 있다/없다。"
   },
   {
     "id": "7v74",
@@ -4095,7 +4095,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "名詞をつなぐ「～と」。母音終わりは 와、子音終わりは 과。"
   },
   {
     "id": "7v75",
@@ -4114,7 +4114,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "所有の「～の」。会話では「エ」に近く発音されることもある。"
   },
   {
     "id": "7v76",
@@ -4133,7 +4133,7 @@ window.QUESTION_BANK = [
     "tags": [
       "vocab"
     ],
-    "hint": ""
+    "hint": "있다 の尊敬語。「いらっしゃる」。先生など目上の人に使う。"
   },
   {
     "id": "7g1",
@@ -4153,7 +4153,7 @@ window.QUESTION_BANK = [
       "particle",
       "priority"
     ],
-    "hint": ""
+    "hint": "主語の助詞「～が」。숙제 は母音終わりなので 가。"
   },
   {
     "id": "7g2",
@@ -4173,7 +4173,7 @@ window.QUESTION_BANK = [
       "particle",
       "priority"
     ],
-    "hint": ""
+    "hint": "主語の助詞「～が」。수업 は 받침 ㅂ 終わりなので 이。"
   },
   {
     "id": "7g3",
@@ -4193,7 +4193,7 @@ window.QUESTION_BANK = [
       "existence",
       "priority"
     ],
-    "hint": ""
+    "hint": "있습니까? への否定回答は 아니요, 없습니다.。있다 と 없다 を対で覚える。"
   },
   {
     "id": "7g4",
@@ -4213,7 +4213,7 @@ window.QUESTION_BANK = [
       "particle",
       "position"
     ],
-    "hint": ""
+    "hint": "存在する場所には 에。「教室に」＝교실에。"
   },
   {
     "id": "7g5",
@@ -4232,7 +4232,7 @@ window.QUESTION_BANK = [
     "tags": [
       "particle"
     ],
-    "hint": ""
+    "hint": "「～と」は、母音終わりの名詞の後ろで 와。개 は母音終わり。"
   },
   {
     "id": "7g6",
@@ -4251,7 +4251,7 @@ window.QUESTION_BANK = [
     "tags": [
       "particle"
     ],
-    "hint": ""
+    "hint": "「～と」は、子音終わりの名詞の後ろで 과。책 は 받침 ㄱ 終わり。"
   },
   {
     "id": "7g7",
@@ -4270,7 +4270,7 @@ window.QUESTION_BANK = [
     "tags": [
       "possessive"
     ],
-    "hint": ""
+    "hint": "저의 は 제 に縮まる。丁寧な「私の」。"
   },
   {
     "id": "7g8",
@@ -4289,7 +4289,7 @@ window.QUESTION_BANK = [
     "tags": [
       "possessive"
     ],
-    "hint": ""
+    "hint": "나의 は 내 に縮まる。親しい「僕の・私の」。"
   },
   {
     "id": "7g9",
@@ -4308,7 +4308,7 @@ window.QUESTION_BANK = [
     "tags": [
       "demonstrative"
     ],
-    "hint": ""
+    "hint": "近いものは 이 系列。이＋것＝이것（これ）。"
   },
   {
     "id": "7g10",
@@ -4327,7 +4327,7 @@ window.QUESTION_BANK = [
     "tags": [
       "demonstrative"
     ],
-    "hint": ""
+    "hint": "遠い場所は 저 系列。저＋기＝저기（あそこ）。"
   },
   {
     "id": "7g11",
@@ -4346,7 +4346,7 @@ window.QUESTION_BANK = [
     "tags": [
       "position"
     ],
-    "hint": ""
+    "hint": "位置は「名詞＋位置語」。책상（机）＋위（上）。"
   },
   {
     "id": "7g12",
@@ -4365,7 +4365,7 @@ window.QUESTION_BANK = [
     "tags": [
       "position"
     ],
-    "hint": ""
+    "hint": "位置は「名詞＋位置語」。의자（椅子）＋옆（横）。"
   },
   {
     "id": "7g13",
@@ -4385,7 +4385,7 @@ window.QUESTION_BANK = [
       "conjugation",
       "verb"
     ],
-    "hint": ""
+    "hint": "ㄹ語幹は ㅂ니다/습니다 の前で ㄹ が脱落。살- → 사-＋ㅂ니다＝삽니다。"
   },
   {
     "id": "7g14",
@@ -4405,7 +4405,7 @@ window.QUESTION_BANK = [
       "conjugation",
       "verb"
     ],
-    "hint": ""
+    "hint": "ㄹ語幹は ㅂ니다/습니다 の前で ㄹ が脱落。만들- → 만드-＋ㅂ니다。"
   },
   {
     "id": "7g15",
@@ -4425,7 +4425,7 @@ window.QUESTION_BANK = [
       "negative",
       "verb"
     ],
-    "hint": ""
+    "hint": "지 않습니다 の前では ㄹ は脱落しない。놀-＋지 않습니다。"
   },
   {
     "id": "7g16",
@@ -4444,7 +4444,7 @@ window.QUESTION_BANK = [
     "tags": [
       "demonstrative"
     ],
-    "hint": ""
+    "hint": "누구＋가 は 누가 という特別な縮約になる。"
   },
   {
     "id": "7g17",
@@ -4464,7 +4464,7 @@ window.QUESTION_BANK = [
       "position",
       "conversation"
     ],
-    "hint": ""
+    "hint": "어디에 の答えは「場所＋에 있습니다」。책상 위＋에 있습니다。"
   },
   {
     "id": "7p1",
@@ -4489,7 +4489,7 @@ window.QUESTION_BANK = [
       "existence",
       "position"
     ],
-    "hint": "例：ベッド・机・パソコン"
+    "hint": "「部屋の中に何がありますか」には、物を 와/과 で並べ、最後に 이/가 있습니다。"
   },
   {
     "id": "cv1",
@@ -4509,7 +4509,7 @@ window.QUESTION_BANK = [
       "country",
       "priority"
     ],
-    "hint": ""
+    "hint": "「韓国」と同じ漢字語。한＝韓、국＝国。"
   },
   {
     "id": "cv2",
@@ -4529,7 +4529,7 @@ window.QUESTION_BANK = [
       "country",
       "priority"
     ],
-    "hint": ""
+    "hint": "「日本」と同じ漢字語。일＝日、본＝本。"
   },
   {
     "id": "cv3",
@@ -4549,7 +4549,7 @@ window.QUESTION_BANK = [
       "country",
       "priority"
     ],
-    "hint": ""
+    "hint": "「中国」と同じ漢字語。중＝中、국＝国。"
   },
   {
     "id": "cv4",
@@ -4569,7 +4569,7 @@ window.QUESTION_BANK = [
       "country",
       "priority"
     ],
-    "hint": ""
+    "hint": "「アメリカ」。漢字では美国に由来するので 미＋국 と覚える。"
   },
   {
     "id": "cv5",
@@ -4589,7 +4589,7 @@ window.QUESTION_BANK = [
       "country",
       "priority"
     ],
-    "hint": ""
+    "hint": "国名「러시아」は音のまとまりで覚え、最初の音節を手がかりに思い出す。"
   },
   {
     "id": "cv6",
@@ -4609,7 +4609,7 @@ window.QUESTION_BANK = [
       "country",
       "priority"
     ],
-    "hint": ""
+    "hint": "国名「캐나다」は音のまとまりで覚え、最初の音節を手がかりに思い出す。"
   },
   {
     "id": "cv7",
@@ -4629,7 +4629,7 @@ window.QUESTION_BANK = [
       "country",
       "priority"
     ],
-    "hint": ""
+    "hint": "国名「베트남」は音のまとまりで覚え、最初の音節を手がかりに思い出す。"
   },
   {
     "id": "cv8",
@@ -4649,7 +4649,7 @@ window.QUESTION_BANK = [
       "country",
       "priority"
     ],
-    "hint": ""
+    "hint": "国名「프랑스」は音のまとまりで覚え、最初の音節を手がかりに思い出す。"
   },
   {
     "id": "h1",
@@ -4668,7 +4668,7 @@ window.QUESTION_BANK = [
     "tags": [
       "handwriting"
     ],
-    "hint": ""
+    "hint": "선생＝先生＋님＝敬称。日本語の「先生」と漢字語が同じ。"
   },
   {
     "id": "h2",
@@ -4687,7 +4687,7 @@ window.QUESTION_BANK = [
     "tags": [
       "handwriting"
     ],
-    "hint": ""
+    "hint": "만나다（会う）＋아서/어서＋반갑습니다（うれしい）。「会えてうれしいです」と分解する。"
   },
   {
     "id": "h3",
@@ -4706,7 +4706,7 @@ window.QUESTION_BANK = [
     "tags": [
       "handwriting"
     ],
-    "hint": ""
+    "hint": "答え「공부하지 않습니다」を、音節ブロックごとに区切って3回書く。書いた後に받침（終声）が抜けていないか確認。"
   },
   {
     "id": "h4",
@@ -4725,7 +4725,7 @@ window.QUESTION_BANK = [
     "tags": [
       "handwriting"
     ],
-    "hint": ""
+    "hint": "答え「한국어는 어렵지 않습니다.」を、音節ブロックごとに区切って3回書く。書いた後に받침（終声）が抜けていないか確認。"
   },
   {
     "id": "h5",
@@ -4744,7 +4744,7 @@ window.QUESTION_BANK = [
     "tags": [
       "handwriting"
     ],
-    "hint": ""
+    "hint": "答え「숙제가 있습니다.」を、音節ブロックごとに区切って3回書く。書いた後に받침（終声）が抜けていないか確認。"
   },
   {
     "id": "h6",
@@ -4763,7 +4763,7 @@ window.QUESTION_BANK = [
     "tags": [
       "handwriting"
     ],
-    "hint": ""
+    "hint": "答え「수업이 없습니다.」を、音節ブロックごとに区切って3回書く。書いた後に받침（終声）が抜けていないか確認。"
   },
   {
     "id": "h7",
@@ -4782,7 +4782,7 @@ window.QUESTION_BANK = [
     "tags": [
       "handwriting"
     ],
-    "hint": ""
+    "hint": "答え「책상 위」を、音節ブロックごとに区切って3回書く。書いた後に받침（終声）が抜けていないか確認。"
   },
   {
     "id": "h8",
@@ -4801,6 +4801,6 @@ window.QUESTION_BANK = [
     "tags": [
       "handwriting"
     ],
-    "hint": ""
+    "hint": "両方から遠い「あそこ」。저것 と同じ遠称。"
   }
 ];
