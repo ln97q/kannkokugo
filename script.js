@@ -76,8 +76,14 @@
     $("#inputArea").classList.toggle("hidden", q.choices.length > 0 || q.mode === "handwriting");
     $("#canvasArea").classList.toggle("hidden", q.mode !== "handwriting");
     if (q.mode === "handwriting") {
-      clearCanvas(); $("#showAnswerBtn").classList.remove("hidden"); $("#checkBtn").classList.add("hidden");
-    }
+  $("#showAnswerBtn").classList.remove("hidden");
+  $("#checkBtn").classList.add("hidden");
+
+  requestAnimationFrame(() => {
+    resizeCanvas();
+    clearCanvas();
+  });
+}
     if (q.choices.length) {
       q.choices.forEach(c => {
         const b = document.createElement("button");
@@ -157,44 +163,111 @@
     updateStatsUI(); showView("#resultView");
   };
 
-  // Canvas
-  const canvas = $("#writeCanvas"), ctx = canvas.getContext("2d");
-  let drawing=false, paths=[], current=[];
-  const resizeCanvas = () => {
-    const rect = canvas.getBoundingClientRect(), ratio = devicePixelRatio || 1;
-    canvas.width = rect.width * ratio; canvas.height = rect.height * ratio;
-    ctx.setTransform(ratio,0,0,ratio,0,0); redraw();
-  };
-  const point = e => {
-    const r=canvas.getBoundingClientRect(), p=e.touches?e.touches[0]:e;
-    return {x:p.clientX-r.left,y:p.clientY-r.top};
-  };
-  const redraw = () => {
-    ctx.clearRect(0,0,canvas.width,canvas.height); ctx.lineWidth=4; ctx.lineCap="round"; ctx.lineJoin="round"; ctx.strokeStyle="#183247";
-    paths.forEach(path => { if(path.length<2)return; ctx.beginPath(); ctx.moveTo(path[0].x,path[0].y); path.slice(1).forEach(p=>ctx.lineTo(p.x,p.y)); ctx.stroke(); });
-  };
-  const startDraw=e=>{e.preventDefault();drawing=true;current=[point(e)];paths.push(current)};
-  const moveDraw=e=>{if(!drawing)return;e.preventDefault();current.push(point(e));redraw()};
-  const endDraw=e=>{if(!drawing)return;e.preventDefault();drawing=false};
-  const clearCanvas=()=>{paths=[];current=[];redraw()};
-  ["pointerdown","touchstart"].forEach(ev=>canvas.addEventListener(ev,startDraw,{passive:false}));
-  ["pointermove","touchmove"].forEach(ev=>canvas.addEventListener(ev,moveDraw,{passive:false}));
-  ["pointerup","pointercancel","touchend"].forEach(ev=>canvas.addEventListener(ev,endDraw,{passive:false}));
-  window.addEventListener("resize", resizeCanvas);
-  $("#clearCanvasBtn").onclick=clearCanvas;
-  $("#undoCanvasBtn").onclick=()=>{paths.pop();redraw()};
+ // Canvas（前半）
+const canvas = $("#writeCanvas"), ctx = canvas.getContext("2d");
+let drawing = false, paths = [], current = [];
 
-  $$(".count-btn").forEach(b => b.onclick = () => {
-    $$(".count-btn").forEach(x => x.classList.remove("active")); b.classList.add("active"); state.count=+b.dataset.count;
+canvas.style.touchAction = "none";
+
+const resizeCanvas = () => {
+  const rect = canvas.getBoundingClientRect();
+  if (!rect.width || !rect.height) return;
+
+  const ratio = window.devicePixelRatio || 1;
+
+  canvas.width = Math.round(rect.width * ratio);
+  canvas.height = Math.round(rect.height * ratio);
+
+  ctx.setTransform(ratio, 0, 0, ratio, 0, 0);
+
+  redraw();
+};
+
+const point = e => {
+  const r = canvas.getBoundingClientRect();
+  return {
+    x: e.clientX - r.left,
+    y: e.clientY - r.top
+  };
+};
+
+const redraw = () => {
+  const rect = canvas.getBoundingClientRect();
+
+  ctx.clearRect(0, 0, rect.width, rect.height);
+
+  ctx.lineWidth = 4;
+  ctx.lineCap = "round";
+  ctx.lineJoin = "round";
+  ctx.strokeStyle = "#183247";
+
+  paths.forEach(path => {
+    if (!path.length) return;
+
+    ctx.beginPath();
+    ctx.moveTo(path[0].x, path[0].y);
+
+    if (path.length === 1) {
+      ctx.lineTo(path[0].x + 0.1, path[0].y + 0.1);
+    } else {
+      path.slice(1).forEach(p => ctx.lineTo(p.x, p.y));
+    }
+
+    ctx.stroke();
   });
-  $$(".mode-card").forEach(b => b.onclick = () => startQuiz(b.dataset.mode));
-  $("#checkBtn").onclick = () => reveal(false);
-  $("#showAnswerBtn").onclick = () => reveal(true);
-  $("#nextBtn").onclick = next;
-  $("#selfCorrectBtn").onclick = () => { const q=state.queue[state.index]; finishMark(true,q,"手書き自己採点：○"); next(); };
-  $("#selfWrongBtn").onclick = () => { const q=state.queue[state.index]; finishMark(false,q,"手書き自己採点：×"); next(); };
-  $("#backHomeBtn").onclick = () => { if(confirm("クイズを終了してホームに戻りますか？")) {updateStatsUI();showView("#homeView")} };
-  $("#resultHomeBtn").onclick = () => {updateStatsUI();showView("#homeView")};
-  $("#retryBtn").onclick = () => startQuiz(state.lastSettings.mode);
-  updateStatsUI(); setTimeout(resizeCanvas, 100);
-})();
+};
+
+const startDraw = e => {
+  e.preventDefault();
+
+  drawing = true;
+  current = [point(e)];
+  paths.push(current);
+
+  if (canvas.setPointerCapture && e.pointerId !== undefined) {
+    canvas.setPointerCapture(e.pointerId);
+  }
+
+  redraw();
+};
+  const moveDraw = e => {
+  if (!drawing) return;
+
+  e.preventDefault();
+  current.push(point(e));
+  redraw();
+};
+
+const endDraw = e => {
+  if (!drawing) return;
+
+  e.preventDefault();
+  drawing = false;
+
+  if (canvas.releasePointerCapture && e.pointerId !== undefined) {
+    try {
+      canvas.releasePointerCapture(e.pointerId);
+    } catch (_) {}
+  }
+};
+
+const clearCanvas = () => {
+  paths = [];
+  current = [];
+  redraw();
+};
+
+canvas.addEventListener("pointerdown", startDraw, { passive: false });
+canvas.addEventListener("pointermove", moveDraw, { passive: false });
+canvas.addEventListener("pointerup", endDraw, { passive: false });
+canvas.addEventListener("pointercancel", endDraw, { passive: false });
+canvas.addEventListener("pointerleave", endDraw, { passive: false });
+
+window.addEventListener("resize", resizeCanvas);
+
+$("#clearCanvasBtn").onclick = clearCanvas;
+
+$("#undoCanvasBtn").onclick = () => {
+  paths.pop();
+  redraw();
+};
