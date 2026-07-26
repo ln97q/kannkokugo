@@ -2,26 +2,24 @@
 <html lang="ja">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-  <meta name="theme-color" content="#e8f4ff">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#dff1ff">
+  <meta name="apple-mobile-web-app-capable" content="yes">
   <title>韓国語テスト対策</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css?v=20260727-notes">
 </head>
 <body>
   <header class="app-header">
-    <div>
+    <div class="header-inner">
       <p class="eyebrow">OFFLINE STUDY APP</p>
       <h1>韓国語テスト対策</h1>
-      <p class="sub">第5課・第6課・第7課／単語・文法・手書き・絶対出る問題</p>
+      <p class="sub">第5課・第6課・第7課／単語・文法・手書き・重要問題</p>
     </div>
   </header>
 
   <main class="app-shell">
-    <section id="homeView" class="view active">
-      <div class="notice">
-        <strong>このサイトは完全オフライン版です。</strong>
-        問題・成績・苦手記録は、この端末のブラウザ内だけに保存されます。
-      </div>
+    <section id="homeView" class="view active" aria-label="ホーム">
+      <div class="notice"><strong>この端末だけで使えます。</strong> 成績と間違い記録はブラウザ内に保存されます。</div>
 
       <section class="panel">
         <h2>出題範囲</h2>
@@ -29,63 +27,31 @@
           <label class="check-chip"><input type="checkbox" value="5" checked><span>第5課</span></label>
           <label class="check-chip"><input type="checkbox" value="6" checked><span>第6課</span></label>
           <label class="check-chip"><input type="checkbox" value="7" checked><span>第7課</span></label>
-          <label class="check-chip priority"><input type="checkbox" value="priority"><span>絶対出る</span></label>
+          <label class="check-chip priority"><input type="checkbox" value="priority"><span>重要問題</span></label>
         </div>
       </section>
 
       <section class="panel">
         <h2>練習モード</h2>
         <div class="mode-grid">
-          <button class="mode-card" data-mode="mixed">
-            <span class="mode-icon">🎲</span>
-            <strong>ランダム</strong>
-            <small>単語・文法・会話を混ぜる</small>
-          </button>
-          <button class="mode-card" data-mode="vocab">
-            <span class="mode-icon">📚</span>
-            <strong>単語</strong>
-            <small>日⇄韓・4択</small>
-          </button>
-          <button class="mode-card" data-mode="grammar">
-            <span class="mode-icon">🧩</span>
-            <strong>文法</strong>
-            <small>助詞・活用・否定</small>
-          </button>
-          <button class="mode-card" data-mode="focus">
-            <span class="mode-icon">🔥</span>
-            <strong>苦手特訓</strong>
-            <small>こそあど・位置・動詞</small>
-          </button>
-          <button class="mode-card" data-mode="priority">
-            <span class="mode-icon">⭐</span>
-            <strong>絶対出る</strong>
-            <small>先生指定問題を重点練習</small>
-          </button>
-          <button class="mode-card" data-mode="handwriting">
-            <span class="mode-icon">✍️</span>
-            <strong>手書き</strong>
-            <small>指・Apple Pencil対応</small>
-          </button>
-          <button class="mode-card" data-mode="mistakes">
-            <span class="mode-icon">↩️</span>
-            <strong>間違い直し</strong>
-            <small>過去に間違えた問題だけ</small>
-          </button>
-          <button class="mode-card" data-mode="countries">
-            <span class="mode-icon">🌏</span>
-            <strong>国名</strong>
-            <small>出そうな8か国</small>
-          </button>
+          <button type="button" class="mode-card" data-mode="mixed"><span class="mode-icon">🎲</span><strong>ランダム</strong><small>単語・文法・会話</small></button>
+          <button type="button" class="mode-card" data-mode="vocab"><span class="mode-icon">📚</span><strong>単語</strong><small>日本語・韓国語</small></button>
+          <button type="button" class="mode-card" data-mode="grammar"><span class="mode-icon">🧩</span><strong>文法</strong><small>助詞・活用・否定</small></button>
+          <button type="button" class="mode-card" data-mode="focus"><span class="mode-icon">🔥</span><strong>苦手特訓</strong><small>位置・こそあど・動詞</small></button>
+          <button type="button" class="mode-card" data-mode="priority"><span class="mode-icon">⭐</span><strong>重要問題</strong><small>優先問題だけ</small></button>
+          <button type="button" class="mode-card" data-mode="handwriting"><span class="mode-icon">✍️</span><strong>手書き</strong><small>指・ペン対応</small></button>
+          <button type="button" class="mode-card" data-mode="mistakes"><span class="mode-icon">↩️</span><strong>間違い直し</strong><small>間違えた問題だけ</small></button>
+          <button type="button" class="mode-card" data-mode="countries"><span class="mode-icon">🌏</span><strong>国名</strong><small>国名を集中練習</small></button>
         </div>
       </section>
 
       <section class="panel compact">
         <h2>問題数</h2>
         <div class="count-row">
-          <button class="count-btn active" data-count="10">10問</button>
-          <button class="count-btn" data-count="20">20問</button>
-          <button class="count-btn" data-count="30">30問</button>
-          <button class="count-btn" data-count="999">全部</button>
+          <button type="button" class="count-btn active" data-count="10">10問</button>
+          <button type="button" class="count-btn" data-count="20">20問</button>
+          <button type="button" class="count-btn" data-count="30">30問</button>
+          <button type="button" class="count-btn" data-count="999">全部</button>
         </div>
       </section>
 
@@ -96,82 +62,78 @@
       </section>
     </section>
 
-    <section id="quizView" class="view">
+    <section id="quizView" class="view" aria-label="クイズ">
       <div class="quiz-topbar">
-        <button id="backHomeBtn" class="ghost-btn">← ホーム</button>
-        <div class="progress-wrap">
-          <div id="progressText">1 / 10</div>
-          <div class="progress"><span id="progressBar"></span></div>
-        </div>
+        <button type="button" id="backHomeBtn" class="ghost-btn">← ホーム</button>
+        <div class="progress-wrap"><div id="progressText">1 / 10</div><div class="progress"><span id="progressBar"></span></div></div>
       </div>
 
       <article class="question-card">
-        <div class="question-meta">
-          <span id="lessonBadge" class="badge">第7課</span>
-          <span id="categoryBadge" class="badge pale">文法</span>
-        </div>
+        <div class="question-meta"><span id="lessonBadge" class="badge"></span><span id="categoryBadge" class="badge pale"></span></div>
         <p id="questionPrompt" class="question-prompt"></p>
         <h2 id="questionText" class="question-text"></h2>
         <p id="questionHint" class="question-hint"></p>
-
         <div id="choiceArea" class="choice-area"></div>
-
-        <div id="inputArea" class="input-area">
-          <textarea id="textAnswer" rows="3" autocomplete="off" autocapitalize="off" spellcheck="false"
-            placeholder="ここに答えを入力"></textarea>
-        </div>
+        <div id="inputArea" class="input-area"><textarea id="textAnswer" rows="3" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="ここに答えを入力"></textarea></div>
 
         <div id="canvasArea" class="canvas-area hidden">
-          <canvas id="writeCanvas"></canvas>
-          <div class="canvas-tools">
-            <button id="undoCanvasBtn" class="small-btn">1つ戻す</button>
-            <button id="clearCanvasBtn" class="small-btn">全部消す</button>
-          </div>
-          <p class="canvas-note">手書きは自動判定せず、答えを見て自分で採点します。</p>
+          <canvas id="writeCanvas" aria-label="手書き欄"></canvas>
+          <div class="canvas-tools"><button type="button" id="undoCanvasBtn" class="small-btn">1つ戻す</button><button type="button" id="clearCanvasBtn" class="small-btn">全部消す</button></div>
+          <p class="canvas-note">書いたあと「答えを見る」を押して、自分で○×を選びます。</p>
         </div>
 
-        <div class="action-row">
-          <button id="checkBtn" class="primary-btn">答え合わせ</button>
-          <button id="showAnswerBtn" class="secondary-btn hidden">答えを見る</button>
-        </div>
+        <section class="study-note-panel" aria-label="問題メモ">
+          <div class="study-note-heading">
+            <div>
+              <strong>📝 この問題の自分メモ</strong>
+              <small>語呂合わせ・覚えるコツ・先生の注意など</small>
+            </div>
+            <span id="noteSaveStatus" class="note-save-status" aria-live="polite"></span>
+          </div>
+          <textarea id="questionMemo" rows="3" placeholder="例：학교は「学校」と漢字語が同じ／ㅎから始まる"></textarea>
+          <div class="study-settings">
+            <fieldset class="difficulty-field">
+              <legend>苦手度</legend>
+              <div id="difficultyButtons" class="difficulty-buttons" aria-label="苦手度">
+                <button type="button" data-level="1" aria-label="苦手度1">★</button>
+                <button type="button" data-level="2" aria-label="苦手度2">★</button>
+                <button type="button" data-level="3" aria-label="苦手度3">★</button>
+                <button type="button" data-level="4" aria-label="苦手度4">★</button>
+                <button type="button" data-level="5" aria-label="苦手度5">★</button>
+              </div>
+            </fieldset>
+            <label class="learned-check"><input type="checkbox" id="learnedCheck"><span>✅ 覚えた</span></label>
+          </div>
+          <button type="button" id="saveNoteBtn" class="save-note-btn">この問題のメモを保存</button>
+        </section>
+
+        <div class="action-row"><button type="button" id="checkBtn" class="primary-btn">答え合わせ</button><button type="button" id="showAnswerBtn" class="secondary-btn hidden">答えを見る</button></div>
 
         <section id="feedback" class="feedback hidden">
           <div id="resultHeadline" class="result-headline"></div>
-          <div class="answer-box">
-            <span>正解</span>
-            <strong id="correctAnswer"></strong>
-          </div>
+          <div class="answer-box"><span>正解</span><strong id="correctAnswer"></strong></div>
           <div id="explanationBox" class="explanation-box"></div>
-          <div id="selfGradeArea" class="self-grade hidden">
-            <p>書けていましたか？</p>
-            <button id="selfCorrectBtn" class="grade-btn correct">○ 書けた</button>
-            <button id="selfWrongBtn" class="grade-btn wrong">× 書けなかった</button>
-          </div>
-          <button id="nextBtn" class="primary-btn">次の問題</button>
+          <div id="selfGradeArea" class="self-grade hidden"><p>書けていましたか？</p><button type="button" id="selfCorrectBtn" class="grade-btn correct">○ 書けた</button><button type="button" id="selfWrongBtn" class="grade-btn wrong">× 書けなかった</button></div>
+          <button type="button" id="nextBtn" class="primary-btn">次の問題</button>
         </section>
       </article>
     </section>
 
-    <section id="resultView" class="view">
+    <section id="resultView" class="view" aria-label="結果">
       <article class="result-card">
-        <p class="eyebrow">RESULT</p>
-        <h2>おつかれさま！</h2>
-        <div class="score-circle">
-          <strong id="finalScore">0</strong><span>点</span>
-        </div>
+        <p class="eyebrow">RESULT</p><h2>おつかれさま！</h2>
+        <div class="score-circle"><strong id="finalScore">0</strong><span>点</span></div>
         <p id="finalMessage"></p>
-        <div class="result-breakdown">
-          <div><strong id="correctCount">0</strong><span>正解</span></div>
-          <div><strong id="wrongCount">0</strong><span>不正解</span></div>
-        </div>
+        <div class="result-breakdown"><div><strong id="correctCount">0</strong><span>正解</span></div><div><strong id="wrongCount">0</strong><span>不正解</span></div></div>
         <div id="reviewList" class="review-list"></div>
-        <button id="retryBtn" class="primary-btn">同じ条件でもう一度</button>
-        <button id="resultHomeBtn" class="secondary-btn">ホームに戻る</button>
+        <button type="button" id="retryBtn" class="primary-btn">同じ条件でもう一度</button>
+        <button type="button" id="resultHomeBtn" class="secondary-btn">ホームに戻る</button>
       </article>
     </section>
   </main>
 
-  <script src="questions.js"></script>
-  <script src="script.js"></script>
+  <noscript><p class="fatal">JavaScriptを有効にしてください。</p></noscript>
+  <script src="questions.js?v=20260727-notes"></script>
+  <script src="script.js?v=20260727-notes"></script>
 </body>
 </html>
