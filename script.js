@@ -1,123 +1,4 @@
-import { initializeApp } from "https://www.gstatic.com/firebasejs/12.11.0/firebase-app.js";
-import {
-  getAuth,
-  setPersistence,
-  browserLocalPersistence,
-  createUserWithEmailAndPassword,
-  signInWithEmailAndPassword,
-  signOut,
-  sendPasswordResetEmail,
-  onAuthStateChanged
-} from "https://www.gstatic.com/firebasejs/12.11.0/firebase-auth.js";
-import {
-  getFirestore,
-  doc,
-  getDoc,
-  setDoc,
-  serverTimestamp
-} from "https://www.gstatic.com/firebasejs/12.11.0/firebase-firestore.js";
-
-const firebaseConfig = {
-  apiKey: "AIzaSyAuR_FkgTgbDWjfCXMe5bxAWREdIQE0KOc",
-  authDomain: "kannkokugo-e9d05.firebaseapp.com",
-  projectId: "kannkokugo-e9d05",
-  storageBucket: "kannkokugo-e9d05.firebasestorage.app",
-  messagingSenderId: "935480336325",
-  appId: "1:935480336325:web:791ef9614549d3f4ef35ac",
-  measurementId: "G-J9JXWGN1PZ"
-};
-
-const app = initializeApp(firebaseConfig);
-const auth = getAuth(app);
-const db = getFirestore(app);
-await setPersistence(auth, browserLocalPersistence);
-
-let currentUser = null;
-let cloudSaveTimer = null;
-let cloudLoaded = false;
-
-const authGate = document.querySelector("#authGate");
-const authMessage = document.querySelector("#authMessage");
-const authEmail = document.querySelector("#authEmail");
-const authPassword = document.querySelector("#authPassword");
-const syncStatus = document.querySelector("#syncStatus");
-
-function setAuthMessage(message, ok = false) {
-  authMessage.textContent = message;
-  authMessage.classList.toggle("ok", ok);
-}
-
-function friendlyAuthError(error) {
-  const code = error?.code || "";
-  if (code.includes("invalid-credential")) return "メールアドレスまたはパスワードが違います。";
-  if (code.includes("email-already-in-use")) return "このメールアドレスはすでに登録されています。";
-  if (code.includes("weak-password")) return "パスワードは6文字以上にしてください。";
-  if (code.includes("invalid-email")) return "メールアドレスの形式を確認してください。";
-  if (code.includes("operation-not-allowed")) return "FirebaseのAuthenticationで「メール／パスワード」を有効にしてください。";
-  if (code.includes("too-many-requests")) return "試行回数が多すぎます。少し待ってからもう一度試してください。";
-  return "処理に失敗しました。Firebaseの設定と通信状態を確認してください。";
-}
-
-function userDocRef(uid) {
-  return doc(db, "users", uid, "study", "main");
-}
-
-function localPayload() {
-  return {
-    stats: getStats(),
-    mistakes: getMistakes(),
-    updatedAt: serverTimestamp(),
-    version: 1
-  };
-}
-
-async function loadCloudData(user) {
-  cloudLoaded = false;
-  syncStatus.textContent = "クラウド記録を読み込んでいます…";
-  syncStatus.className = "sync-saving";
-  try {
-    const ref = userDocRef(user.uid);
-    const snap = await getDoc(ref);
-    if (snap.exists()) {
-      const data = snap.data();
-      localStorage.setItem(statsKey, JSON.stringify(data.stats || {answered:0, correct:0}));
-      localStorage.setItem(mistakesKey, JSON.stringify(data.mistakes || {}));
-    } else {
-      await setDoc(ref, localPayload(), {merge:true});
-    }
-    cloudLoaded = true;
-    updateStatsUI();
-    syncStatus.textContent = "学習記録は自動保存されています。";
-    syncStatus.className = "sync-ok";
-  } catch (error) {
-    console.error(error);
-    syncStatus.textContent = "同期できません。Firestore作成・セキュリティルールを確認してください。";
-    syncStatus.className = "sync-error";
-  }
-}
-
-async function saveCloudData() {
-  if (!currentUser || !cloudLoaded) return;
-  syncStatus.textContent = "保存中…";
-  syncStatus.className = "sync-saving";
-  try {
-    await setDoc(userDocRef(currentUser.uid), localPayload(), {merge:true});
-    syncStatus.textContent = "保存しました。別端末にも同期されます。";
-    syncStatus.className = "sync-ok";
-  } catch (error) {
-    console.error(error);
-    syncStatus.textContent = "保存に失敗しました。通信とFirestoreルールを確認してください。";
-    syncStatus.className = "sync-error";
-  }
-}
-
-function scheduleCloudSave() {
-  clearTimeout(cloudSaveTimer);
-  cloudSaveTimer = setTimeout(saveCloudData, 500);
-}
-
 (() => {
-
   const $ = s => document.querySelector(s);
   const $$ = s => [...document.querySelectorAll(s)];
   const state = {
@@ -128,7 +9,6 @@ function scheduleCloudSave() {
   const mistakesKey = "koreanQuizMistakesV1";
   const getStats = () => JSON.parse(localStorage.getItem(statsKey) || '{"answered":0,"correct":0}');
   const getMistakes = () => JSON.parse(localStorage.getItem(mistakesKey) || '{}');
-  const requestCloudSave = () => scheduleCloudSave();
   const saveMistake = (id, isCorrect) => {
     const m = getMistakes();
     if (isCorrect) {
@@ -136,7 +16,6 @@ function scheduleCloudSave() {
       if (m[id] === 0) delete m[id];
     } else m[id] = (m[id] || 0) + 1;
     localStorage.setItem(mistakesKey, JSON.stringify(m));
-    requestCloudSave();
   };
   const updateStatsUI = () => {
     const s = getStats(), m = getMistakes();
@@ -253,7 +132,7 @@ function scheduleCloudSave() {
     if (correct) state.score++;
     else state.wrongItems.push({q, value});
     const s = getStats(); s.answered++; if (correct) s.correct++;
-    localStorage.setItem(statsKey, JSON.stringify(s)); saveMistake(q.id, correct); requestCloudSave();
+    localStorage.setItem(statsKey, JSON.stringify(s)); saveMistake(q.id, correct);
   };
   const next = () => {
     state.index++;
@@ -317,71 +196,5 @@ function scheduleCloudSave() {
   $("#backHomeBtn").onclick = () => { if(confirm("クイズを終了してホームに戻りますか？")) {updateStatsUI();showView("#homeView")} };
   $("#resultHomeBtn").onclick = () => {updateStatsUI();showView("#homeView")};
   $("#retryBtn").onclick = () => startQuiz(state.lastSettings.mode);
-
-
-
-document.querySelector("#loginBtn").addEventListener("click", async () => {
-  setAuthMessage("");
-  try {
-    await signInWithEmailAndPassword(auth, authEmail.value.trim(), authPassword.value);
-  } catch (error) {
-    setAuthMessage(friendlyAuthError(error));
-  }
-});
-
-document.querySelector("#signupBtn").addEventListener("click", async () => {
-  setAuthMessage("");
-  if (!authEmail.value.trim() || authPassword.value.length < 6) {
-    setAuthMessage("メールアドレスと6文字以上のパスワードを入力してください。");
-    return;
-  }
-  try {
-    await createUserWithEmailAndPassword(auth, authEmail.value.trim(), authPassword.value);
-    setAuthMessage("アカウントを作成しました。", true);
-  } catch (error) {
-    setAuthMessage(friendlyAuthError(error));
-  }
-});
-
-document.querySelector("#resetPasswordBtn").addEventListener("click", async () => {
-  const email = authEmail.value.trim();
-  if (!email) {
-    setAuthMessage("先にメールアドレスを入力してください。");
-    return;
-  }
-  try {
-    await sendPasswordResetEmail(auth, email);
-    setAuthMessage("パスワード再設定メールを送りました。", true);
-  } catch (error) {
-    setAuthMessage(friendlyAuthError(error));
-  }
-});
-
-document.querySelector("#logoutBtn").addEventListener("click", async () => {
-  await saveCloudData();
-  await signOut(auth);
-});
-
-authPassword.addEventListener("keydown", e => {
-  if (e.key === "Enter") document.querySelector("#loginBtn").click();
-});
-
-onAuthStateChanged(auth, async user => {
-  currentUser = user;
-  if (user) {
-    document.body.classList.remove("auth-loading");
-    authGate.classList.add("hidden");
-    document.querySelector("#userArea").classList.remove("hidden");
-    document.querySelector("#userEmail").textContent = user.email || "ログイン中";
-    await loadCloudData(user);
-    updateStatsUI();
-    setTimeout(resizeCanvas, 100);
-  } else {
-    cloudLoaded = false;
-    document.body.classList.add("auth-loading");
-    authGate.classList.remove("hidden");
-    document.querySelector("#userArea").classList.add("hidden");
-  }
-});
-
+  updateStatsUI(); setTimeout(resizeCanvas, 100);
 })();
