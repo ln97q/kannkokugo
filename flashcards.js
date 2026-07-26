@@ -20,10 +20,11 @@
       else if (/日本語/.test(q.prompt || "")) { korean = normalize(q.text); japanese = normalize(q.answer); }
       if (!korean || !japanese) return;
       const key = `${q.lesson}|${korean}|${japanese}`;
-      if (!map.has(key)) map.set(key, { key, lesson:String(q.lesson), korean, japanese, ids:[], explanations:[] });
+      if (!map.has(key)) map.set(key, { key, lesson:String(q.lesson), korean, japanese, ids:[], explanations:[], hints:[] });
       const card = map.get(key);
       card.ids.push(q.id);
       if (q.explanation && !card.explanations.includes(q.explanation)) card.explanations.push(q.explanation);
+      if (q.hint && !card.hints.includes(q.hint)) card.hints.push(q.hint);
     });
     return Array.from(map.values());
   }
@@ -80,7 +81,7 @@
     $("#backLabel").textContent = frontKorean ? "日本語" : "韓国語";
     $("#frontText").textContent = frontKorean ? card.korean : card.japanese;
     $("#backText").textContent = frontKorean ? card.japanese : card.korean;
-    $("#cardExplanation").textContent = card.explanations[0] || "";
+    $("#cardExplanation").textContent = `${card.explanations[0] || ""}\n\n💡 覚え方\n${card.hints[0] || "声に出して3回練習しましょう。"}`;
     $("#backArea").classList.add("hidden");
     $("#frontHint").classList.remove("hidden");
     $("#flipCardBtn").textContent = "答えを見る";
