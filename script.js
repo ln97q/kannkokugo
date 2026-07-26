@@ -153,7 +153,7 @@
     $("#categoryBadge").textContent = q.category || "問題";
     $("#questionPrompt").textContent = q.prompt || "答えてください";
     $("#questionText").textContent = q.text || "";
-    $("#questionHint").textContent = q.hint || "";
+    $("#questionHint").textContent = "💡 覚え方は答え合わせの後に表示されます";
     $("#feedback").classList.add("hidden");
     $("#checkBtn").classList.remove("hidden");
     $("#showAnswerBtn").classList.add("hidden");
@@ -220,7 +220,7 @@
     state.answered = true;
     $("#feedback").classList.remove("hidden");
     $("#correctAnswer").textContent = q.answer || "";
-    $("#explanationBox").textContent = `解説\n${q.explanation || ""}`;
+    $("#explanationBox").textContent = `解説\n${q.explanation || ""}\n\n💡 覚え方\n${q.hint || "声に出して3回練習しましょう。"}`;
     $("#selfGradeArea").classList.toggle("hidden", !handwriting);
     $("#checkBtn").classList.add("hidden");
     $("#showAnswerBtn").classList.add("hidden");
