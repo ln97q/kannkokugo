@@ -163,31 +163,43 @@
     updateStatsUI(); showView("#resultView");
   };
 
- // Canvas（前半）
-const canvas = $("#writeCanvas"), ctx = canvas.getContext("2d");
-let drawing = false, paths = [], current = [];
+ // Canvas（PC・スマホ対応）
+const canvas = $("#writeCanvas");
+const ctx = canvas.getContext("2d");
+
+let drawing = false;
+let paths = [];
+let current = [];
 
 canvas.style.touchAction = "none";
 
 const resizeCanvas = () => {
   const rect = canvas.getBoundingClientRect();
-  if (!rect.width || !rect.height) return;
+
+  if (rect.width === 0 || rect.height === 0) return;
 
   const ratio = window.devicePixelRatio || 1;
 
-  canvas.width = Math.round(rect.width * ratio);
-  canvas.height = Math.round(rect.height * ratio);
+  canvas.width = rect.width * ratio;
+  canvas.height = rect.height * ratio;
 
   ctx.setTransform(ratio, 0, 0, ratio, 0, 0);
 
   redraw();
 };
 
-const point = e => {
-  const r = canvas.getBoundingClientRect();
+const getPoint = e => {
+  const rect = canvas.getBoundingClientRect();
+
+  const touch = e.touches
+    ? e.touches[0]
+    : e.changedTouches
+      ? e.changedTouches[0]
+      : e;
+
   return {
-    x: e.clientX - r.left,
-    y: e.clientY - r.top
+    x: touch.clientX - rect.left,
+    y: touch.clientY - rect.top
   };
 };
 
@@ -202,15 +214,17 @@ const redraw = () => {
   ctx.strokeStyle = "#183247";
 
   paths.forEach(path => {
-    if (!path.length) return;
+    if (path.length === 0) return;
 
     ctx.beginPath();
     ctx.moveTo(path[0].x, path[0].y);
 
+    path.slice(1).forEach(p => {
+      ctx.lineTo(p.x, p.y);
+    });
+
     if (path.length === 1) {
       ctx.lineTo(path[0].x + 0.1, path[0].y + 0.1);
-    } else {
-      path.slice(1).forEach(p => ctx.lineTo(p.x, p.y));
     }
 
     ctx.stroke();
@@ -221,20 +235,18 @@ const startDraw = e => {
   e.preventDefault();
 
   drawing = true;
-  current = [point(e)];
+  current = [getPoint(e)];
   paths.push(current);
-
-  if (canvas.setPointerCapture && e.pointerId !== undefined) {
-    canvas.setPointerCapture(e.pointerId);
-  }
 
   redraw();
 };
-  const moveDraw = e => {
+
+const moveDraw = e => {
   if (!drawing) return;
 
   e.preventDefault();
-  current.push(point(e));
+
+  current.push(getPoint(e));
   redraw();
 };
 
@@ -243,12 +255,6 @@ const endDraw = e => {
 
   e.preventDefault();
   drawing = false;
-
-  if (canvas.releasePointerCapture && e.pointerId !== undefined) {
-    try {
-      canvas.releasePointerCapture(e.pointerId);
-    } catch (_) {}
-  }
 };
 
 const clearCanvas = () => {
@@ -257,11 +263,17 @@ const clearCanvas = () => {
   redraw();
 };
 
-canvas.addEventListener("pointerdown", startDraw, { passive: false });
-canvas.addEventListener("pointermove", moveDraw, { passive: false });
-canvas.addEventListener("pointerup", endDraw, { passive: false });
-canvas.addEventListener("pointercancel", endDraw, { passive: false });
-canvas.addEventListener("pointerleave", endDraw, { passive: false });
+// PC
+canvas.addEventListener("mousedown", startDraw);
+canvas.addEventListener("mousemove", moveDraw);
+canvas.addEventListener("mouseup", endDraw);
+canvas.addEventListener("mouseleave", endDraw);
+
+// スマホ
+canvas.addEventListener("touchstart", startDraw, { passive: false });
+canvas.addEventListener("touchmove", moveDraw, { passive: false });
+canvas.addEventListener("touchend", endDraw, { passive: false });
+canvas.addEventListener("touchcancel", endDraw, { passive: false });
 
 window.addEventListener("resize", resizeCanvas);
 
@@ -271,3 +283,49 @@ $("#undoCanvasBtn").onclick = () => {
   paths.pop();
   redraw();
 };
+  $$(".count-btn").forEach(b => b.onclick = () => {
+  $$(".count-btn").forEach(x => x.classList.remove("active"));
+  b.classList.add("active");
+  state.count = +b.dataset.count;
+});
+
+$$(".mode-card").forEach(b => {
+  b.onclick = () => startQuiz(b.dataset.mode);
+});
+
+$("#checkBtn").onclick = () => reveal(false);
+$("#showAnswerBtn").onclick = () => reveal(true);
+$("#nextBtn").onclick = next;
+
+$("#selfCorrectBtn").onclick = () => {
+  const q = state.queue[state.index];
+  finishMark(true, q, "手書き自己採点：○");
+  next();
+};
+
+$("#selfWrongBtn").onclick = () => {
+  const q = state.queue[state.index];
+  finishMark(false, q, "手書き自己採点：×");
+  next();
+};
+
+$("#backHomeBtn").onclick = () => {
+  if (confirm("クイズを終了してホームに戻りますか？")) {
+    updateStatsUI();
+    showView("#homeView");
+  }
+};
+
+$("#resultHomeBtn").onclick = () => {
+  updateStatsUI();
+  showView("#homeView");
+};
+
+$("#retryBtn").onclick = () => {
+  startQuiz(state.lastSettings.mode);
+};
+
+updateStatsUI();
+setTimeout(resizeCanvas, 100);
+
+})();
