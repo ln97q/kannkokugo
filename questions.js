@@ -2524,7 +2524,7 @@ window.QUESTION_BANK = [
       "verb",
       "conjugation"
     ],
-    "hint": "보다 の語幹 보- に ㅂ니다 がつき、母音が縮まって 봅니다。"
+    "hint": "보다 の語幹 보- はパッチムがないので、ㅂ니다 を付けて 봅니다。"
   },
   {
     "id": "6g2",
@@ -7627,5 +7627,1727 @@ window.QUESTION_BANK = [
       "vocab"
     ],
     "hint": ""
+  },
+  {
+    "id": "polite-tf-1",
+    "lesson": "6",
+    "category": "丁寧形",
+    "mode": "grammar",
+    "prompt": "○か×を選んでください",
+    "text": "보다 → 봅니다\nこの丁寧形は正しい？",
+    "answer": "○",
+    "explanation": "正しい形です。 正しい丁寧形：보다 → 봅니다\n語幹は 보-。パッチムがないので ㅂ니다 を付けます。보＋ㅂ니다＝봅니다。",
+    "choices": [
+      "○",
+      "×"
+    ],
+    "accepted": [
+      "○"
+    ],
+    "priority": false,
+    "tags": [
+      "polite-practice",
+      "conjugation"
+    ],
+    "hint": "語幹の最後にパッチムがあるかを確認しましょう。"
+  },
+  {
+    "id": "polite-tf-2",
+    "lesson": "6",
+    "category": "丁寧形",
+    "mode": "grammar",
+    "prompt": "○か×を選んでください",
+    "text": "먹다 → 먹ㅂ니다\nこの丁寧形は正しい？",
+    "answer": "×",
+    "explanation": "正しくありません。 正しい丁寧形：먹다 → 먹습니다\n語幹は 먹-。パッチム ㄱ があるので 습니다 を付けます。먹＋습니다＝먹습니다。",
+    "choices": [
+      "○",
+      "×"
+    ],
+    "accepted": [
+      "×"
+    ],
+    "priority": false,
+    "tags": [
+      "polite-practice",
+      "conjugation"
+    ],
+    "hint": "語幹の最後にパッチムがあるかを確認しましょう。"
+  },
+  {
+    "id": "polite-tf-3",
+    "lesson": "6",
+    "category": "丁寧形",
+    "mode": "grammar",
+    "prompt": "○か×を選んでください",
+    "text": "가다 → 갑니다\nこの丁寧形は正しい？",
+    "answer": "○",
+    "explanation": "正しい形です。 正しい丁寧形：가다 → 갑니다\n語幹は 가-。パッチムがないので ㅂ니다 を付けます。가＋ㅂ니다＝갑니다。",
+    "choices": [
+      "○",
+      "×"
+    ],
+    "accepted": [
+      "○"
+    ],
+    "priority": false,
+    "tags": [
+      "polite-practice",
+      "conjugation"
+    ],
+    "hint": "語幹の最後にパッチムがあるかを確認しましょう。"
+  },
+  {
+    "id": "polite-tf-4",
+    "lesson": "6",
+    "category": "丁寧形",
+    "mode": "grammar",
+    "prompt": "○か×を選んでください",
+    "text": "자다 → 자습니다\nこの丁寧形は正しい？",
+    "answer": "×",
+    "explanation": "正しくありません。 正しい丁寧形：자다 → 잡니다\n語幹は 자-。パッチムがないので ㅂ니다 を付けます。자＋ㅂ니다＝잡니다。",
+    "choices": [
+      "○",
+      "×"
+    ],
+    "accepted": [
+      "×"
+    ],
+    "priority": false,
+    "tags": [
+      "polite-practice",
+      "conjugation"
+    ],
+    "hint": "語幹の最後にパッチムがあるかを確認しましょう。"
+  },
+  {
+    "id": "polite-tf-5",
+    "lesson": "6",
+    "category": "丁寧形",
+    "mode": "grammar",
+    "prompt": "○か×を選んでください",
+    "text": "읽다 → 읽습니다\nこの丁寧形は正しい？",
+    "answer": "○",
+    "explanation": "正しい形です。 正しい丁寧形：읽다 → 읽습니다\n語幹は 읽-。パッチムがあるので 습니다 を付けます。읽＋습니다＝읽습니다。",
+    "choices": [
+      "○",
+      "×"
+    ],
+    "accepted": [
+      "○"
+    ],
+    "priority": false,
+    "tags": [
+      "polite-practice",
+      "conjugation"
+    ],
+    "hint": "語幹の最後にパッチムがあるかを確認しましょう。"
+  },
+  {
+    "id": "polite-tf-6",
+    "lesson": "6",
+    "category": "丁寧形",
+    "mode": "grammar",
+    "prompt": "○か×を選んでください",
+    "text": "공부하다 → 공부하습니다\nこの丁寧形は正しい？",
+    "answer": "×",
+    "explanation": "正しくありません。 正しい丁寧形：공부하다 → 공부합니다\n語幹は 공부하-。パッチムがないので ㅂ니다 を付けます。공부하＋ㅂ니다＝공부합니다。",
+    "choices": [
+      "○",
+      "×"
+    ],
+    "accepted": [
+      "×"
+    ],
+    "priority": false,
+    "tags": [
+      "polite-practice",
+      "conjugation"
+    ],
+    "hint": "語幹の最後にパッチムがあるかを確認しましょう。"
+  },
+  {
+    "id": "polite-tf-7",
+    "lesson": "8",
+    "category": "丁寧形",
+    "mode": "grammar",
+    "prompt": "○か×を選んでください",
+    "text": "배우다 → 배웁니다\nこの丁寧形は正しい？",
+    "answer": "○",
+    "explanation": "正しい形です。 正しい丁寧形：배우다 → 배웁니다\n語幹は 배우-。パッチムがないので ㅂ니다 を付けます。배우＋ㅂ니다＝배웁니다。",
+    "choices": [
+      "○",
+      "×"
+    ],
+    "accepted": [
+      "○"
+    ],
+    "priority": false,
+    "tags": [
+      "polite-practice",
+      "conjugation"
+    ],
+    "hint": "語幹の最後にパッチムがあるかを確認しましょう。"
+  },
+  {
+    "id": "polite-tf-8",
+    "lesson": "8",
+    "category": "丁寧形",
+    "mode": "grammar",
+    "prompt": "○か×を選んでください",
+    "text": "운동하다 → 운동합니다\nこの丁寧形は正しい？",
+    "answer": "○",
+    "explanation": "正しい形です。 正しい丁寧形：운동하다 → 운동합니다\n語幹は 운동하-。パッチムがないので ㅂ니다 を付けます。",
+    "choices": [
+      "○",
+      "×"
+    ],
+    "accepted": [
+      "○"
+    ],
+    "priority": false,
+    "tags": [
+      "polite-practice",
+      "conjugation"
+    ],
+    "hint": "語幹の最後にパッチムがあるかを確認しましょう。"
+  },
+  {
+    "id": "polite-tf-9",
+    "lesson": "8",
+    "category": "丁寧形",
+    "mode": "grammar",
+    "prompt": "○か×を選んでください",
+    "text": "기다리다 → 기다리습니다\nこの丁寧形は正しい？",
+    "answer": "×",
+    "explanation": "正しくありません。 正しい丁寧形：기다리다 → 기다립니다\n語幹は 기다리-。パッチムがないので ㅂ니다 を付けます。기다리＋ㅂ니다＝기다립니다。",
+    "choices": [
+      "○",
+      "×"
+    ],
+    "accepted": [
+      "×"
+    ],
+    "priority": false,
+    "tags": [
+      "polite-practice",
+      "conjugation"
+    ],
+    "hint": "語幹の最後にパッチムがあるかを確認しましょう。"
+  },
+  {
+    "id": "polite-tf-10",
+    "lesson": "9",
+    "category": "丁寧形",
+    "mode": "grammar",
+    "prompt": "○か×を選んでください",
+    "text": "입다 → 입ㅂ니다\nこの丁寧形は正しい？",
+    "answer": "×",
+    "explanation": "正しくありません。 正しい丁寧形：입다 → 입습니다\n語幹は 입-。パッチム ㅂ があるので 습니다 を付けます。입＋습니다＝입습니다。",
+    "choices": [
+      "○",
+      "×"
+    ],
+    "accepted": [
+      "×"
+    ],
+    "priority": false,
+    "tags": [
+      "polite-practice",
+      "conjugation"
+    ],
+    "hint": "語幹の最後にパッチムがあるかを確認しましょう。"
+  },
+  {
+    "id": "polite-tf-11",
+    "lesson": "9",
+    "category": "丁寧形",
+    "mode": "grammar",
+    "prompt": "○か×を選んでください",
+    "text": "빌리다 → 빌립니다\nこの丁寧形は正しい？",
+    "answer": "○",
+    "explanation": "正しい形です。 正しい丁寧形：빌리다 → 빌립니다\n語幹は 빌리-。最後の 리 にパッチムがないので ㅂ니다 を付けます。",
+    "choices": [
+      "○",
+      "×"
+    ],
+    "accepted": [
+      "○"
+    ],
+    "priority": false,
+    "tags": [
+      "polite-practice",
+      "conjugation"
+    ],
+    "hint": "語幹の最後にパッチムがあるかを確認しましょう。"
+  },
+  {
+    "id": "polite-tf-12",
+    "lesson": "9",
+    "category": "丁寧形",
+    "mode": "grammar",
+    "prompt": "○か×を選んでください",
+    "text": "돌아오다 → 돌아옵니다\nこの丁寧形は正しい？",
+    "answer": "○",
+    "explanation": "正しい形です。 正しい丁寧形：돌아오다 → 돌아옵니다\n語幹は 돌아오-。パッチムがないので ㅂ니다 を付けます。",
+    "choices": [
+      "○",
+      "×"
+    ],
+    "accepted": [
+      "○"
+    ],
+    "priority": false,
+    "tags": [
+      "polite-practice",
+      "conjugation"
+    ],
+    "hint": "語幹の最後にパッチムがあるかを確認しましょう。"
+  },
+  {
+    "id": "polite-tf-13",
+    "lesson": "10",
+    "category": "丁寧形",
+    "mode": "grammar",
+    "prompt": "○か×を選んでください",
+    "text": "있다 → 있ㅂ니다\nこの丁寧形は正しい？",
+    "answer": "×",
+    "explanation": "正しくありません。 正しい丁寧形：있다 → 있습니다\n語幹は 있-。パッチム ㅆ があるので 습니다 を付けます。있＋습니다＝있습니다。",
+    "choices": [
+      "○",
+      "×"
+    ],
+    "accepted": [
+      "×"
+    ],
+    "priority": false,
+    "tags": [
+      "polite-practice",
+      "conjugation"
+    ],
+    "hint": "語幹の最後にパッチムがあるかを確認しましょう。"
+  },
+  {
+    "id": "polite-tf-14",
+    "lesson": "10",
+    "category": "丁寧形",
+    "mode": "grammar",
+    "prompt": "○か×を選んでください",
+    "text": "앉다 → 앉습니다\nこの丁寧形は正しい？",
+    "answer": "○",
+    "explanation": "正しい形です。 正しい丁寧形：앉다 → 앉습니다\n語幹は 앉-。パッチムがあるので 습니다 を付けます。",
+    "choices": [
+      "○",
+      "×"
+    ],
+    "accepted": [
+      "○"
+    ],
+    "priority": false,
+    "tags": [
+      "polite-practice",
+      "conjugation"
+    ],
+    "hint": "語幹の最後にパッチムがあるかを確認しましょう。"
+  },
+  {
+    "id": "polite-tf-15",
+    "lesson": "10",
+    "category": "丁寧形",
+    "mode": "grammar",
+    "prompt": "○か×を選んでください",
+    "text": "식사하다 → 식사합니다\nこの丁寧形は正しい？",
+    "answer": "○",
+    "explanation": "正しい形です。 正しい丁寧形：식사하다 → 식사합니다\n語幹は 식사하-。パッチムがないので ㅂ니다 を付けます。",
+    "choices": [
+      "○",
+      "×"
+    ],
+    "accepted": [
+      "○"
+    ],
+    "priority": false,
+    "tags": [
+      "polite-practice",
+      "conjugation"
+    ],
+    "hint": "語幹の最後にパッチムがあるかを確認しましょう。"
+  },
+  {
+    "id": "polite-choice-1",
+    "lesson": "6",
+    "category": "丁寧形",
+    "mode": "grammar",
+    "prompt": "正しい丁寧形を選んでください",
+    "text": "보다",
+    "answer": "봅니다",
+    "explanation": "보다 → 봅니다\n語幹 보- はパッチムがないので ㅂ니다。보＋ㅂ니다＝봅니다。",
+    "choices": [
+      "보습니다",
+      "봅니다",
+      "보입니다",
+      "보읍니다"
+    ],
+    "accepted": [
+      "봅니다"
+    ],
+    "priority": false,
+    "tags": [
+      "polite-practice",
+      "conjugation"
+    ],
+    "hint": "語幹の最後にパッチムがあるかを確認しましょう。"
+  },
+  {
+    "id": "polite-choice-2",
+    "lesson": "6",
+    "category": "丁寧形",
+    "mode": "grammar",
+    "prompt": "正しい丁寧形を選んでください",
+    "text": "먹다",
+    "answer": "먹습니다",
+    "explanation": "먹다 → 먹습니다\n語幹 먹- はパッチム ㄱ があるので 습니다。먹＋습니다＝먹습니다。",
+    "choices": [
+      "먹ㅂ니다",
+      "먹습니다",
+      "먹입니다",
+      "먹읍니다"
+    ],
+    "accepted": [
+      "먹습니다"
+    ],
+    "priority": false,
+    "tags": [
+      "polite-practice",
+      "conjugation"
+    ],
+    "hint": "語幹の最後にパッチムがあるかを確認しましょう。"
+  },
+  {
+    "id": "polite-choice-3",
+    "lesson": "6",
+    "category": "丁寧形",
+    "mode": "grammar",
+    "prompt": "正しい丁寧形を選んでください",
+    "text": "공부하다",
+    "answer": "공부합니다",
+    "explanation": "공부하다 → 공부합니다\n語幹 공부하- はパッチムがないので ㅂ니다。공부하＋ㅂ니다＝공부합니다。",
+    "choices": [
+      "공부하습니다",
+      "공부합니다",
+      "공부하입니다",
+      "공부했입니다"
+    ],
+    "accepted": [
+      "공부합니다"
+    ],
+    "priority": false,
+    "tags": [
+      "polite-practice",
+      "conjugation"
+    ],
+    "hint": "語幹の最後にパッチムがあるかを確認しましょう。"
+  },
+  {
+    "id": "polite-choice-4",
+    "lesson": "6",
+    "category": "丁寧形",
+    "mode": "grammar",
+    "prompt": "正しい丁寧形を選んでください",
+    "text": "가다",
+    "answer": "갑니다",
+    "explanation": "가다 → 갑니다\n語幹 가- はパッチムがないので ㅂ니다。가＋ㅂ니다＝갑니다。",
+    "choices": [
+      "가습니다",
+      "갑니다",
+      "가입니다",
+      "가읍니다"
+    ],
+    "accepted": [
+      "갑니다"
+    ],
+    "priority": false,
+    "tags": [
+      "polite-practice",
+      "conjugation"
+    ],
+    "hint": "語幹の最後にパッチムがあるかを確認しましょう。"
+  },
+  {
+    "id": "polite-choice-5",
+    "lesson": "8",
+    "category": "丁寧形",
+    "mode": "grammar",
+    "prompt": "正しい丁寧形を選んでください",
+    "text": "놀다",
+    "answer": "놉니다",
+    "explanation": "놀다 → 놉니다\n語幹 놀- は ㄹ パッチムで終わります。ㄹ が落ちて ㅂ니다 が付くため、놉니다 です。",
+    "choices": [
+      "놀습니다",
+      "놉니다",
+      "놀ㅂ니다",
+      "놀입니다"
+    ],
+    "accepted": [
+      "놉니다"
+    ],
+    "priority": false,
+    "tags": [
+      "polite-practice",
+      "conjugation"
+    ],
+    "hint": "語幹の最後にパッチムがあるかを確認しましょう。"
+  },
+  {
+    "id": "polite-choice-6",
+    "lesson": "9",
+    "category": "丁寧形",
+    "mode": "grammar",
+    "prompt": "正しい丁寧形を選んでください",
+    "text": "찾다",
+    "answer": "찾습니다",
+    "explanation": "찾다 → 찾습니다\n語幹 찾- はパッチムがあるので 습니다。찾＋습니다＝찾습니다。",
+    "choices": [
+      "찾ㅂ니다",
+      "찾습니다",
+      "찾입니다",
+      "찹니다"
+    ],
+    "accepted": [
+      "찾습니다"
+    ],
+    "priority": false,
+    "tags": [
+      "polite-practice",
+      "conjugation"
+    ],
+    "hint": "語幹の最後にパッチムがあるかを確認しましょう。"
+  },
+  {
+    "id": "polite-choice-7",
+    "lesson": "10",
+    "category": "丁寧形",
+    "mode": "grammar",
+    "prompt": "正しい丁寧形を選んでください",
+    "text": "앉다",
+    "answer": "앉습니다",
+    "explanation": "앉다 → 앉습니다\n語幹 앉- はパッチムがあるので 습니다。앉＋습니다＝앉습니다。",
+    "choices": [
+      "앉ㅂ니다",
+      "앉습니다",
+      "안습니다",
+      "앉입니다"
+    ],
+    "accepted": [
+      "앉습니다"
+    ],
+    "priority": false,
+    "tags": [
+      "polite-practice",
+      "conjugation"
+    ],
+    "hint": "語幹の最後にパッチムがあるかを確認しましょう。"
+  },
+  {
+    "id": "lesson8-1",
+    "lesson": "8",
+    "category": "第8課の活用",
+    "mode": "grammar",
+    "prompt": "会話で使う丁寧形を選んでください",
+    "text": "살다",
+    "answer": "살아요",
+    "explanation": "살다 → 살아요。語幹 살- の母音は ㅏ なので -아요。-아요 の前では ㄹ は残ります。",
+    "choices": [
+      "살아요",
+      "사요",
+      "삽니다"
+    ],
+    "accepted": [
+      "살아요"
+    ],
+    "priority": false,
+    "tags": [
+      "lesson8-form",
+      "conjugation"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "lesson8-2",
+    "lesson": "8",
+    "category": "第8課の活用",
+    "mode": "grammar",
+    "prompt": "会話で使う丁寧形を選んでください",
+    "text": "앉다",
+    "answer": "앉아요",
+    "explanation": "앉다 → 앉아요。語幹 앉- は ㅏ を含むので -아요。パッチムがあっても、この選び方は語幹の母音で決まります。",
+    "choices": [
+      "안아요",
+      "앉아요",
+      "앉어요"
+    ],
+    "accepted": [
+      "앉아요"
+    ],
+    "priority": false,
+    "tags": [
+      "lesson8-form",
+      "conjugation"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "lesson8-3",
+    "lesson": "8",
+    "category": "第8課の活用",
+    "mode": "grammar",
+    "prompt": "会話で使う丁寧形を選んでください",
+    "text": "먹다",
+    "answer": "먹어요",
+    "explanation": "먹다 → 먹어요。語幹 먹- の母音は ㅓ なので -어요。",
+    "choices": [
+      "먹아요",
+      "먹어요",
+      "먹습니다"
+    ],
+    "accepted": [
+      "먹어요"
+    ],
+    "priority": false,
+    "tags": [
+      "lesson8-form",
+      "conjugation"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "lesson8-4",
+    "lesson": "8",
+    "category": "第8課の活用",
+    "mode": "grammar",
+    "prompt": "会話で使う丁寧形を選んでください",
+    "text": "읽다",
+    "answer": "읽어요",
+    "explanation": "읽다 → 읽어요。語幹 읽- の母音は ㅣ なので -어요。綴りは 읽어요 のままです。",
+    "choices": [
+      "읽아요",
+      "일어요",
+      "읽어요"
+    ],
+    "accepted": [
+      "읽어요"
+    ],
+    "priority": false,
+    "tags": [
+      "lesson8-form",
+      "conjugation"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "lesson8-5",
+    "lesson": "8",
+    "category": "第8課の活用",
+    "mode": "grammar",
+    "prompt": "会話で使う丁寧形を選んでください",
+    "text": "오다",
+    "answer": "와요",
+    "explanation": "오다 → 와요。語幹 오- と -아요 が縮まって 와요。",
+    "choices": [
+      "오아요",
+      "와요",
+      "오어요"
+    ],
+    "accepted": [
+      "와요"
+    ],
+    "priority": false,
+    "tags": [
+      "lesson8-form",
+      "conjugation"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "lesson8-6",
+    "lesson": "8",
+    "category": "第8課の活用",
+    "mode": "grammar",
+    "prompt": "会話で使う丁寧形を選んでください",
+    "text": "보다",
+    "answer": "봐요",
+    "explanation": "보다 → 봐요。語幹 보- と -아요 が縮まって 봐요。",
+    "choices": [
+      "보어요",
+      "보아요",
+      "봐요"
+    ],
+    "accepted": [
+      "봐요"
+    ],
+    "priority": false,
+    "tags": [
+      "lesson8-form",
+      "conjugation"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "lesson8-7",
+    "lesson": "8",
+    "category": "第8課の活用",
+    "mode": "grammar",
+    "prompt": "会話で使う丁寧形を選んでください",
+    "text": "주다",
+    "answer": "줘요",
+    "explanation": "주다 → 줘요。語幹 주- と -어요 が縮まって 줘요。",
+    "choices": [
+      "주아요",
+      "주어요",
+      "줘요"
+    ],
+    "accepted": [
+      "줘요"
+    ],
+    "priority": false,
+    "tags": [
+      "lesson8-form",
+      "conjugation"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "lesson8-8",
+    "lesson": "8",
+    "category": "第8課の活用",
+    "mode": "grammar",
+    "prompt": "会話で使う丁寧形を選んでください",
+    "text": "배우다",
+    "answer": "배워요",
+    "explanation": "배우다 → 배워요。語幹 배우- と -어요 が縮まって 배워요。",
+    "choices": [
+      "배우아요",
+      "배우어요",
+      "배워요"
+    ],
+    "accepted": [
+      "배워요"
+    ],
+    "priority": false,
+    "tags": [
+      "lesson8-form",
+      "conjugation"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "lesson8-9",
+    "lesson": "8",
+    "category": "第8課の活用",
+    "mode": "grammar",
+    "prompt": "会話で使う丁寧形を選んでください",
+    "text": "마시다",
+    "answer": "마셔요",
+    "explanation": "마시다 → 마셔요。語幹 마시- と -어요 が縮まって 마셔요。",
+    "choices": [
+      "마시어요",
+      "마셔요",
+      "마시아요"
+    ],
+    "accepted": [
+      "마셔요"
+    ],
+    "priority": false,
+    "tags": [
+      "lesson8-form",
+      "conjugation"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "lesson8-10",
+    "lesson": "8",
+    "category": "第8課の活用",
+    "mode": "grammar",
+    "prompt": "会話で使う丁寧形を選んでください",
+    "text": "보내다",
+    "answer": "보내요",
+    "explanation": "보내다 → 보내요。語幹 보내- の ㅐ と -어요 が縮まって 보내요。",
+    "choices": [
+      "보내어요",
+      "보내요",
+      "보내아요"
+    ],
+    "accepted": [
+      "보내요"
+    ],
+    "priority": false,
+    "tags": [
+      "lesson8-form",
+      "conjugation"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "lesson8-11",
+    "lesson": "8",
+    "category": "第8課の活用",
+    "mode": "grammar",
+    "prompt": "会話で使う丁寧形を選んでください",
+    "text": "공부하다",
+    "answer": "공부해요",
+    "explanation": "공부하다 → 공부해요。하다 の語幹 하- に -여요 が付いて 해요 に縮まります。",
+    "choices": [
+      "공부하요",
+      "공부해요",
+      "공부하여요입니다"
+    ],
+    "accepted": [
+      "공부해요"
+    ],
+    "priority": false,
+    "tags": [
+      "lesson8-form",
+      "conjugation"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "lesson8-12",
+    "lesson": "8",
+    "category": "第8課の活用",
+    "mode": "grammar",
+    "prompt": "会話で使う丁寧形を選んでください",
+    "text": "쓰다",
+    "answer": "써요",
+    "explanation": "쓰다 → 써요。語幹 쓰- の ㅡ が落ちて -어요 と結びつき、써요 になります。",
+    "choices": [
+      "쓰아요",
+      "쓰어요",
+      "써요"
+    ],
+    "accepted": [
+      "써요"
+    ],
+    "priority": false,
+    "tags": [
+      "lesson8-form",
+      "conjugation"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "lesson8-13",
+    "lesson": "8",
+    "category": "第8課の活用",
+    "mode": "grammar",
+    "prompt": "○か×を選んでください",
+    "text": "놀다 → 놀아요\nこの形は正しい？",
+    "answer": "○",
+    "explanation": "正しい形です。 -아요 の前では ㄹ は脱落しません。",
+    "choices": [
+      "○",
+      "×"
+    ],
+    "accepted": [
+      "○"
+    ],
+    "priority": false,
+    "tags": [
+      "lesson8-form"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "lesson8-14",
+    "lesson": "8",
+    "category": "第8課の活用",
+    "mode": "grammar",
+    "prompt": "○か×を選んでください",
+    "text": "먹다 → 먹아요\nこの形は正しい？",
+    "answer": "×",
+    "explanation": "正しくありません。 語幹 먹- の母音は ㅓ。正しくは 먹어요 です。",
+    "choices": [
+      "○",
+      "×"
+    ],
+    "accepted": [
+      "×"
+    ],
+    "priority": false,
+    "tags": [
+      "lesson8-form"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "lesson8-15",
+    "lesson": "8",
+    "category": "第8課の活用",
+    "mode": "grammar",
+    "prompt": "○か×を選んでください",
+    "text": "가다 → 가요\nこの形は正しい？",
+    "answer": "○",
+    "explanation": "正しい形です。 가-＋아요 の母音が縮まって 가요 です。",
+    "choices": [
+      "○",
+      "×"
+    ],
+    "accepted": [
+      "○"
+    ],
+    "priority": false,
+    "tags": [
+      "lesson8-form"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "lesson8-16",
+    "lesson": "8",
+    "category": "第8課の活用",
+    "mode": "grammar",
+    "prompt": "○か×を選んでください",
+    "text": "배우다 → 배우어요\nこの形は正しい？",
+    "answer": "×",
+    "explanation": "正しくありません。 実際の形は縮まった 배워요 です。",
+    "choices": [
+      "○",
+      "×"
+    ],
+    "accepted": [
+      "×"
+    ],
+    "priority": false,
+    "tags": [
+      "lesson8-form"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "lesson8-17",
+    "lesson": "8",
+    "category": "第8課の活用",
+    "mode": "grammar",
+    "prompt": "○か×を選んでください",
+    "text": "공부하다 → 공부해요\nこの形は正しい？",
+    "answer": "○",
+    "explanation": "正しい形です。 하다 は 해요 になります。",
+    "choices": [
+      "○",
+      "×"
+    ],
+    "accepted": [
+      "○"
+    ],
+    "priority": false,
+    "tags": [
+      "lesson8-form"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "lesson8-18",
+    "lesson": "8",
+    "category": "第8課の活用",
+    "mode": "grammar",
+    "prompt": "○か×を選んでください",
+    "text": "오다 → 오아요\nこの形は正しい？",
+    "answer": "×",
+    "explanation": "正しくありません。 母音が縮まって 와요 になります。",
+    "choices": [
+      "○",
+      "×"
+    ],
+    "accepted": [
+      "×"
+    ],
+    "priority": false,
+    "tags": [
+      "lesson8-form"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "lesson8-19",
+    "lesson": "8",
+    "category": "第8課の活用",
+    "mode": "grammar",
+    "prompt": "○か×を選んでください",
+    "text": "놀다 → 놉니다\nこの形は正しい？",
+    "answer": "○",
+    "explanation": "正しい形です。 -ㅂ니다 の前では語幹末の ㄹ が脱落します。会話の丁寧形 -아요 なら 놀아요 です。",
+    "choices": [
+      "○",
+      "×"
+    ],
+    "accepted": [
+      "○"
+    ],
+    "priority": false,
+    "tags": [
+      "lesson8-form"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "lesson8-20",
+    "lesson": "8",
+    "category": "第8課の活用",
+    "mode": "grammar",
+    "prompt": "○か×を選んでください",
+    "text": "쓰다 → 써요\nこの形は正しい？",
+    "answer": "○",
+    "explanation": "正しい形です。 語幹末の ㅡ が落ちて 써요 になります。",
+    "choices": [
+      "○",
+      "×"
+    ],
+    "accepted": [
+      "○"
+    ],
+    "priority": false,
+    "tags": [
+      "lesson8-form"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "rieul-1",
+    "lesson": "8",
+    "category": "ㄹ脱落",
+    "mode": "grammar",
+    "prompt": "○か×を選んでください",
+    "text": "놀다 → 놉니다\nこの形は正しい？",
+    "answer": "○",
+    "explanation": "놀- の ㄹ は、-ㅂ니다 の ㅂ の前で落ちます。놀＋ㅂ니다 → 놉니다。",
+    "choices": [
+      "○",
+      "×"
+    ],
+    "accepted": [
+      "○"
+    ],
+    "priority": false,
+    "tags": [
+      "rieul-drop",
+      "conjugation"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "rieul-2",
+    "lesson": "8",
+    "category": "ㄹ脱落",
+    "mode": "grammar",
+    "prompt": "○か×を選んでください",
+    "text": "놀다 → 놀아요\nこの形は正しい？",
+    "answer": "○",
+    "explanation": "-아요 は母音で始まるため、語幹の ㄹ は残ります。놀＋아요 → 놀아요。",
+    "choices": [
+      "○",
+      "×"
+    ],
+    "accepted": [
+      "○"
+    ],
+    "priority": false,
+    "tags": [
+      "rieul-drop",
+      "conjugation"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "rieul-3",
+    "lesson": "8",
+    "category": "ㄹ脱落",
+    "mode": "grammar",
+    "prompt": "○か×を選んでください",
+    "text": "놀다 → 놀지 않아요\nこの形は正しい？",
+    "answer": "○",
+    "explanation": "-지 は ㅈ で始まるため、この形では ㄹ は残ります。",
+    "choices": [
+      "○",
+      "×"
+    ],
+    "accepted": [
+      "○"
+    ],
+    "priority": false,
+    "tags": [
+      "rieul-drop",
+      "conjugation"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "rieul-4",
+    "lesson": "8",
+    "category": "ㄹ脱落",
+    "mode": "grammar",
+    "prompt": "○か×を選んでください",
+    "text": "멀다 → 멀습니다\nこの形は正しい？",
+    "answer": "×",
+    "explanation": "-습니다 の ㅅ の前で ㄹ が落ちます。正しくは 멉니다 です（멀다 → 멉니다）。",
+    "choices": [
+      "○",
+      "×"
+    ],
+    "accepted": [
+      "×"
+    ],
+    "priority": false,
+    "tags": [
+      "rieul-drop",
+      "conjugation"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "rieul-5",
+    "lesson": "8",
+    "category": "ㄹ脱落",
+    "mode": "grammar",
+    "prompt": "○か×を選んでください",
+    "text": "만들다 → 만듭니다\nこの形は正しい？",
+    "answer": "○",
+    "explanation": "語幹 만들- の ㄹ は -ㅂ니다 の前で落ちます。만들- → 만드- → 만듭니다。",
+    "choices": [
+      "○",
+      "×"
+    ],
+    "accepted": [
+      "○"
+    ],
+    "priority": false,
+    "tags": [
+      "rieul-drop",
+      "conjugation"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "rieul-6",
+    "lesson": "8",
+    "category": "ㄹ脱落",
+    "mode": "grammar",
+    "prompt": "○か×を選んでください",
+    "text": "놀다 → 놉니까?\nこの形は正しい？",
+    "answer": "○",
+    "explanation": "-ㅂ니까? の ㅂ の前で ㄹ が落ちます。",
+    "choices": [
+      "○",
+      "×"
+    ],
+    "accepted": [
+      "○"
+    ],
+    "priority": false,
+    "tags": [
+      "rieul-drop",
+      "conjugation"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "rieul-7",
+    "lesson": "8",
+    "category": "ㄹ脱落",
+    "mode": "grammar",
+    "prompt": "○か×を選んでください",
+    "text": "놀다 → 놀지 않습니다\nこの形は正しい？",
+    "answer": "○",
+    "explanation": "否定の -지 않다 では ㄹ が脱落しません。",
+    "choices": [
+      "○",
+      "×"
+    ],
+    "accepted": [
+      "○"
+    ],
+    "priority": false,
+    "tags": [
+      "rieul-drop",
+      "conjugation"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "rieul-8",
+    "lesson": "8",
+    "category": "ㄹ脱落",
+    "mode": "grammar",
+    "prompt": "○か×を選んでください",
+    "text": "살다 → 삽니다\nこの形は正しい？",
+    "answer": "○",
+    "explanation": "살- の ㄹ は -ㅂ니다 の前で落ちます。살- → 사- → 삽니다。",
+    "choices": [
+      "○",
+      "×"
+    ],
+    "accepted": [
+      "○"
+    ],
+    "priority": false,
+    "tags": [
+      "rieul-drop",
+      "conjugation"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "rieul-9",
+    "lesson": "8",
+    "category": "ㄹ脱落",
+    "mode": "grammar",
+    "prompt": "正しい形を選んでください",
+    "text": "놀다＋-니까?",
+    "answer": "노니까?",
+    "explanation": "-니까? の ㄴ の前で ㄹ が脱落します。놀- → 노- → 노니까?",
+    "choices": [
+      "놀니까?",
+      "노니까?",
+      "놉니까?"
+    ],
+    "accepted": [
+      "노니까?"
+    ],
+    "priority": false,
+    "tags": [
+      "rieul-drop",
+      "conjugation"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "rieul-10",
+    "lesson": "8",
+    "category": "ㄹ脱落",
+    "mode": "grammar",
+    "prompt": "正しい形を選んでください",
+    "text": "알다＋-세요",
+    "answer": "아세요",
+    "explanation": "-세요 の ㅅ の前で ㄹ が脱落します。알- → 아- → 아세요。",
+    "choices": [
+      "알세요",
+      "아세요",
+      "압세요"
+    ],
+    "accepted": [
+      "아세요"
+    ],
+    "priority": false,
+    "tags": [
+      "rieul-drop",
+      "conjugation"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "rieul-11",
+    "lesson": "8",
+    "category": "ㄹ脱落",
+    "mode": "grammar",
+    "prompt": "正しい形を選んでください",
+    "text": "팔다＋-ㅂ니다",
+    "answer": "팝니다",
+    "explanation": "-ㅂ니다 の ㅂ の前で ㄹ が脱落します。팔- → 파- → 팝니다。",
+    "choices": [
+      "팔습니다",
+      "팝니다",
+      "팔ㅂ니다"
+    ],
+    "accepted": [
+      "팝니다"
+    ],
+    "priority": false,
+    "tags": [
+      "rieul-drop",
+      "conjugation"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "rieul-12",
+    "lesson": "8",
+    "category": "ㄹ脱落",
+    "mode": "grammar",
+    "prompt": "正しい形を選んでください",
+    "text": "놀다＋-아요",
+    "answer": "놀아요",
+    "explanation": "-아요 の前では ㄹ を残します。놀-＋아요 → 놀아요。",
+    "choices": [
+      "노아요",
+      "놀아요",
+      "놉니다"
+    ],
+    "accepted": [
+      "놀아요"
+    ],
+    "priority": false,
+    "tags": [
+      "rieul-drop",
+      "conjugation"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "pron-1",
+    "lesson": "8",
+    "category": "発音",
+    "mode": "grammar",
+    "prompt": "実際の発音に近い表記を選んでください",
+    "text": "오늘은",
+    "answer": "[오느른]",
+    "explanation": "連音：오늘 のパッチム ㄹ が、母音で始まる 은 に移ります。綴りは 오늘은 のまま。 書くときは元の綴りを使います。",
+    "choices": [
+      "[오늘은]",
+      "[오느른]",
+      "[오느은]"
+    ],
+    "accepted": [
+      "[오느른]"
+    ],
+    "priority": false,
+    "tags": [
+      "pronunciation"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "pron-2",
+    "lesson": "8",
+    "category": "発音",
+    "mode": "grammar",
+    "prompt": "実際の発音に近い表記を選んでください",
+    "text": "수업이",
+    "answer": "[수어비]",
+    "explanation": "連音：업 のパッチム ㅂ が、母音で始まる 이 に移ります。 書くときは元の綴りを使います。",
+    "choices": [
+      "[수어비]",
+      "[수업이]",
+      "[수어피]"
+    ],
+    "accepted": [
+      "[수어비]"
+    ],
+    "priority": false,
+    "tags": [
+      "pronunciation"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "pron-3",
+    "lesson": "8",
+    "category": "発音",
+    "mode": "grammar",
+    "prompt": "実際の発音に近い表記を選んでください",
+    "text": "있어요",
+    "answer": "[이써요]",
+    "explanation": "連音：있 のパッチム ㅆ が次の 어 の位置に移ります。 書くときは元の綴りを使います。",
+    "choices": [
+      "[이써요]",
+      "[있어요]",
+      "[이서요]"
+    ],
+    "accepted": [
+      "[이써요]"
+    ],
+    "priority": false,
+    "tags": [
+      "pronunciation"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "pron-4",
+    "lesson": "8",
+    "category": "発音",
+    "mode": "grammar",
+    "prompt": "実際の発音に近い表記を選んでください",
+    "text": "약속이",
+    "answer": "[약쏘기]",
+    "explanation": "약속 の 속 は前のパッチム ㄱ の影響で濃音化して [쏙]。さらに 속 の ㄱ が 이 に連音して [약쏘기]。 書くときは元の綴りを使います。",
+    "choices": [
+      "[약소기]",
+      "[약쏘기]",
+      "[약쏙이]"
+    ],
+    "accepted": [
+      "[약쏘기]"
+    ],
+    "priority": false,
+    "tags": [
+      "pronunciation"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "pron-5",
+    "lesson": "8",
+    "category": "発音",
+    "mode": "grammar",
+    "prompt": "実際の発音に近い表記を選んでください",
+    "text": "학교",
+    "answer": "[학꾜]",
+    "explanation": "濃音化：前の ㄱ パッチムの後で ㄱ が濃音 ㄲ になります。 書くときは元の綴りを使います。",
+    "choices": [
+      "[학교]",
+      "[학꾜]",
+      "[하꾜]"
+    ],
+    "accepted": [
+      "[학꾜]"
+    ],
+    "priority": false,
+    "tags": [
+      "pronunciation"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "pron-6",
+    "lesson": "8",
+    "category": "発音",
+    "mode": "grammar",
+    "prompt": "実際の発音に近い表記を選んでください",
+    "text": "없어요",
+    "answer": "[업써요]",
+    "explanation": "겹받침 ㅄ の ㅂ を終声として出し、ㅆ が次の 어 に移るため [업써요]。 書くときは元の綴りを使います。",
+    "choices": [
+      "[업써요]",
+      "[어버요]",
+      "[없어요]"
+    ],
+    "accepted": [
+      "[업써요]"
+    ],
+    "priority": false,
+    "tags": [
+      "pronunciation"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "pron-7",
+    "lesson": "8",
+    "category": "発音",
+    "mode": "grammar",
+    "prompt": "実際の発音に近い表記を選んでください",
+    "text": "백화점",
+    "answer": "[배콰점]",
+    "explanation": "激音化：백 の ㄱ と、次の 화 の ㅎ が結びつき、ㅋ の音になります。 書くときは元の綴りを使います。",
+    "choices": [
+      "[배화점]",
+      "[배콰점]",
+      "[백와점]"
+    ],
+    "accepted": [
+      "[배콰점]"
+    ],
+    "priority": false,
+    "tags": [
+      "pronunciation"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "pron-8",
+    "lesson": "8",
+    "category": "発音",
+    "mode": "grammar",
+    "prompt": "実際の発音に近い表記を選んでください",
+    "text": "옷을",
+    "answer": "[오슬]",
+    "explanation": "連音：옷 のパッチム ㅅ が母音で始まる 을 に移ります。 書くときは元の綴りを使います。",
+    "choices": [
+      "[오틀]",
+      "[오슬]",
+      "[옷을]"
+    ],
+    "accepted": [
+      "[오슬]"
+    ],
+    "priority": false,
+    "tags": [
+      "pronunciation"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "pron-9",
+    "lesson": "8",
+    "category": "発音",
+    "mode": "grammar",
+    "prompt": "実際の発音に近い表記を選んでください",
+    "text": "은행",
+    "answer": "[으냉]",
+    "explanation": "連音：은 の ㄴ が次の 행 の ㅎ を弱め、音がつながって [으냉] と発音します。 書くときは元の綴りを使います。",
+    "choices": [
+      "[으냉]",
+      "[은행]",
+      "[은앵]"
+    ],
+    "accepted": [
+      "[으냉]"
+    ],
+    "priority": false,
+    "tags": [
+      "pronunciation"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "pron-10",
+    "lesson": "8",
+    "category": "発音",
+    "mode": "grammar",
+    "prompt": "実際の発音に近い表記を選んでください",
+    "text": "편의점",
+    "answer": "[펴니점]",
+    "explanation": "単語表に記載された発音は [펴니점]。綴りの 의 が会話では [이] になります。 書くときは元の綴りを使います。",
+    "choices": [
+      "[편의점]",
+      "[펴니점]",
+      "[펴늬점]"
+    ],
+    "accepted": [
+      "[펴니점]"
+    ],
+    "priority": false,
+    "tags": [
+      "pronunciation"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "lesson8-grammar-1",
+    "lesson": "8",
+    "category": "第8課の文法",
+    "mode": "grammar",
+    "prompt": "場所で勉強する時、空欄に入る助詞は？",
+    "text": "학교__ 한국어를 배워요.",
+    "answer": "에서",
+    "explanation": "動作が行われる場所は 에서。학교에서 한국어를 배워요。",
+    "choices": [
+      "에",
+      "에서",
+      "과"
+    ],
+    "accepted": [
+      "에서"
+    ],
+    "priority": false,
+    "tags": [
+      "lesson8-grammar"
+    ],
+    "hint": "行き先・時間は 에、動作する場所は 에서。"
+  },
+  {
+    "id": "lesson8-grammar-2",
+    "lesson": "8",
+    "category": "第8課の文法",
+    "mode": "grammar",
+    "prompt": "行き先を表す助詞は？",
+    "text": "학교__ 가요.",
+    "answer": "에",
+    "explanation": "移動の行き先は 에。학교에 가요。",
+    "choices": [
+      "에",
+      "에서",
+      "와"
+    ],
+    "accepted": [
+      "에"
+    ],
+    "priority": false,
+    "tags": [
+      "lesson8-grammar"
+    ],
+    "hint": "行き先・時間は 에、動作する場所は 에서。"
+  },
+  {
+    "id": "lesson8-grammar-3",
+    "lesson": "8",
+    "category": "第8課の文法",
+    "mode": "grammar",
+    "prompt": "時間を表す助詞は？",
+    "text": "오후__ 만나요.",
+    "answer": "에",
+    "explanation": "時刻など「いつ」を示す場合は 에。오후에 만나요。",
+    "choices": [
+      "에",
+      "에서",
+      "과"
+    ],
+    "accepted": [
+      "에"
+    ],
+    "priority": false,
+    "tags": [
+      "lesson8-grammar"
+    ],
+    "hint": "行き先・時間は 에、動作する場所は 에서。"
+  },
+  {
+    "id": "lesson8-grammar-4",
+    "lesson": "8",
+    "category": "第8課の文法",
+    "mode": "grammar",
+    "prompt": "正しい助詞を選んでください",
+    "text": "친구__ 놀아요.",
+    "answer": "와",
+    "explanation": "친구 はパッチムがないので 와。「友達と遊びます」。",
+    "choices": [
+      "와",
+      "과",
+      "에서"
+    ],
+    "accepted": [
+      "와"
+    ],
+    "priority": false,
+    "tags": [
+      "lesson8-grammar"
+    ],
+    "hint": "行き先・時間は 에、動作する場所は 에서。"
+  },
+  {
+    "id": "lesson8-grammar-5",
+    "lesson": "8",
+    "category": "第8課の文法",
+    "mode": "grammar",
+    "prompt": "正しい助詞を選んでください",
+    "text": "책__ 사전을 읽어요.",
+    "answer": "과",
+    "explanation": "책 はパッチム ㄱ で終わるので 과。「本と辞書を読みます」。",
+    "choices": [
+      "와",
+      "과",
+      "에서"
+    ],
+    "accepted": [
+      "과"
+    ],
+    "priority": false,
+    "tags": [
+      "lesson8-grammar"
+    ],
+    "hint": "行き先・時間は 에、動作する場所は 에서。"
+  },
+  {
+    "id": "lesson8-grammar-6",
+    "lesson": "8",
+    "category": "第8課の文法",
+    "mode": "grammar",
+    "prompt": "○か×を選んでください",
+    "text": "학교에서 가요。\n「学校へ行きます」と言いたいとき、正しい？",
+    "answer": "×",
+    "explanation": "行き先の「学校へ」は 학교에。학교에서 は学校で動作をする場合に使います。",
+    "choices": [
+      "○",
+      "×"
+    ],
+    "accepted": [
+      "×"
+    ],
+    "priority": false,
+    "tags": [
+      "lesson8-grammar"
+    ],
+    "hint": "行き先・時間は 에、動作する場所は 에서。"
+  },
+  {
+    "id": "lesson8-grammar-7",
+    "lesson": "8",
+    "category": "第8課の文法",
+    "mode": "grammar",
+    "prompt": "正しい否定を選んでください",
+    "text": "가다 → ？（行きません）",
+    "answer": "안 가요",
+    "explanation": "短い否定は動詞の前に 안。가요 → 안 가요。",
+    "choices": [
+      "안 가요",
+      "가 안요",
+      "안가습니다"
+    ],
+    "accepted": [
+      "안 가요"
+    ],
+    "priority": false,
+    "tags": [
+      "lesson8-grammar"
+    ],
+    "hint": "短い否定の 안 と、長い否定の -지 않아요 を区別しましょう。"
+  },
+  {
+    "id": "lesson8-grammar-8",
+    "lesson": "8",
+    "category": "第8課の文法",
+    "mode": "grammar",
+    "prompt": "正しい否定を選んでください",
+    "text": "가다 → ？（行きません）",
+    "answer": "가지 않아요",
+    "explanation": "長い否定は語幹＋지 않아요。가-＋지 않아요＝가지 않아요。",
+    "choices": [
+      "가 않아요",
+      "가지 않아요",
+      "가요 않다"
+    ],
+    "accepted": [
+      "가지 않아요"
+    ],
+    "priority": false,
+    "tags": [
+      "lesson8-grammar"
+    ],
+    "hint": "短い否定の 안 と、長い否定の -지 않아요 を区別しましょう。"
+  },
+  {
+    "id": "lesson8-grammar-9",
+    "lesson": "8",
+    "category": "第8課の文法",
+    "mode": "grammar",
+    "prompt": "正しい否定を選んでください",
+    "text": "공부하다 → ？（勉強しません）",
+    "answer": "공부 안 해요",
+    "explanation": "名詞＋하다 の短い否定では、名詞と 하다 の間に 안 を置きます。공부하다 → 공부 안 해요。",
+    "choices": [
+      "안 공부해요",
+      "공부 안 해요",
+      "공부하지 해요"
+    ],
+    "accepted": [
+      "공부 안 해요"
+    ],
+    "priority": false,
+    "tags": [
+      "lesson8-grammar"
+    ],
+    "hint": "短い否定の 안 と、長い否定の -지 않아요 を区別しましょう。"
+  },
+  {
+    "id": "lesson8-grammar-10",
+    "lesson": "8",
+    "category": "第8課の文法",
+    "mode": "grammar",
+    "prompt": "○か×を選んでください",
+    "text": "놀다 → 놀지 않아요\nこの否定形は正しい？",
+    "answer": "○",
+    "explanation": "長い否定は語幹＋지 않아요。この場合、ㄹ は脱落せず 놀지 않아요 です。",
+    "choices": [
+      "○",
+      "×"
+    ],
+    "accepted": [
+      "○"
+    ],
+    "priority": false,
+    "tags": [
+      "lesson8-grammar"
+    ],
+    "hint": "短い否定の 안 と、長い否定の -지 않아요 を区別しましょう。"
   }
 ];

@@ -112,6 +112,10 @@
 
     if (mode === "vocab") bank = bank.filter(q => q.mode === "vocab");
     if (mode === "grammar") bank = bank.filter(q => ["grammar", "mixed"].includes(q.mode) && q.category !== "単語");
+    if (mode === "polite") bank = bank.filter(q => tagsOf(q).includes("polite-practice"));
+    if (mode === "lesson8form") bank = bank.filter(q => tagsOf(q).includes("lesson8-form"));
+    if (mode === "rieul") bank = bank.filter(q => tagsOf(q).includes("rieul-drop"));
+    if (mode === "pronunciation") bank = bank.filter(q => tagsOf(q).includes("pronunciation"));
     if (mode === "focus") bank = bank.filter(q => tagsOf(q).some(t => ["demonstrative", "position", "verb", "conjugation"].includes(t)));
     if (mode === "priority") bank = all.filter(q => q.priority);
     if (mode === "handwriting") bank = bank.filter(q => q.mode === "handwriting");

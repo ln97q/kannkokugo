@@ -39,6 +39,7 @@ body{background:#fff;color:var(--ink);overscroll-behavior-y:auto}
 .quiz-topbar{margin-bottom:0;padding:12px 0;border-bottom:1px solid var(--line)}.progress-wrap{color:var(--muted);font-weight:600}.progress{height:4px;background:#e7edef}.progress span{background:var(--accent)}
 .question-card{padding:24px 0;border:0}.question-meta{gap:6px}.badge,.badge.pale{padding:4px 8px;border:1px solid var(--line);border-radius:4px;background:#fff;color:var(--muted);font-size:.75rem;font-weight:600}
 .question-prompt{margin:22px 0 7px;color:var(--muted);font-size:.9rem;font-weight:500}.question-text{font-size:clamp(1.5rem,5vw,2rem)}.question-hint{color:var(--muted)}
+.question-text{white-space:pre-line}
 .choice-btn{min-height:48px;border:1px solid var(--line);border-radius:6px;color:var(--ink);font-weight:600}.choice-btn.selected{border-color:var(--accent);background:var(--accent-soft)}
 .input-area textarea,.study-note-panel textarea{border:1px solid var(--line);border-radius:6px;background:#fff;color:var(--ink);font-size:1rem}
 .input-area textarea:focus,.study-note-panel textarea:focus{outline:2px solid #a4d4e3;border-color:var(--accent)}
