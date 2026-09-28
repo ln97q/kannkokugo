@@ -4802,5 +4802,2830 @@ window.QUESTION_BANK = [
       "handwriting"
     ],
     "hint": "両方から遠い「あそこ」。저것 と同じ遠称。"
+  },
+  {
+    "id": "8v1",
+    "lesson": "8",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "韓国語で書いてください",
+    "text": "午後",
+    "answer": "오후",
+    "explanation": "「오후」は「午後」です。",
+    "choices": [],
+    "accepted": [
+      "오후"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "8vr1",
+    "lesson": "8",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "日本語の意味を答えてください",
+    "text": "오후",
+    "answer": "午後",
+    "explanation": "「오후」は「午後」です。",
+    "choices": [],
+    "accepted": [
+      "午後"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "8v2",
+    "lesson": "8",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "韓国語で書いてください",
+    "text": "遊ぶ",
+    "answer": "놀다",
+    "explanation": "「놀다」は「遊ぶ」です。",
+    "choices": [],
+    "accepted": [
+      "놀다"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "8vr2",
+    "lesson": "8",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "日本語の意味を答えてください",
+    "text": "놀다",
+    "answer": "遊ぶ",
+    "explanation": "「놀다」は「遊ぶ」です。",
+    "choices": [],
+    "accepted": [
+      "遊ぶ"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "8v3",
+    "lesson": "8",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "韓国語で書いてください",
+    "text": "来る/降る",
+    "answer": "오다",
+    "explanation": "「오다」は「来る/降る」です。",
+    "choices": [],
+    "accepted": [
+      "오다"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "8vr3",
+    "lesson": "8",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "日本語の意味を答えてください",
+    "text": "오다",
+    "answer": "来る/降る",
+    "explanation": "「오다」は「来る/降る」です。",
+    "choices": [],
+    "accepted": [
+      "来る/降る",
+      "来る",
+      "降る"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "8v4",
+    "lesson": "8",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "韓国語で書いてください",
+    "text": "習う",
+    "answer": "배우다",
+    "explanation": "「배우다」は「習う」です。",
+    "choices": [],
+    "accepted": [
+      "배우다"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "8vr4",
+    "lesson": "8",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "日本語の意味を答えてください",
+    "text": "배우다",
+    "answer": "習う",
+    "explanation": "「배우다」は「習う」です。",
+    "choices": [],
+    "accepted": [
+      "習う"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "8v5",
+    "lesson": "8",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "韓国語で書いてください",
+    "text": "運動する",
+    "answer": "운동하다",
+    "explanation": "「운동하다」は「運動する」です。",
+    "choices": [],
+    "accepted": [
+      "운동하다"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "8vr5",
+    "lesson": "8",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "日本語の意味を答えてください",
+    "text": "운동하다",
+    "answer": "運動する",
+    "explanation": "「운동하다」は「運動する」です。",
+    "choices": [],
+    "accepted": [
+      "運動する"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "8v6",
+    "lesson": "8",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "韓国語で書いてください",
+    "text": "図書館",
+    "answer": "도서관",
+    "explanation": "「도서관」は「図書館」です。",
+    "choices": [],
+    "accepted": [
+      "도서관"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "8vr6",
+    "lesson": "8",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "日本語の意味を答えてください",
+    "text": "도서관",
+    "answer": "図書館",
+    "explanation": "「도서관」は「図書館」です。",
+    "choices": [],
+    "accepted": [
+      "図書館"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "8v7",
+    "lesson": "8",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "韓国語で書いてください",
+    "text": "食堂",
+    "answer": "식당",
+    "explanation": "「식당」は「食堂」です。",
+    "choices": [],
+    "accepted": [
+      "식당"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "8vr7",
+    "lesson": "8",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "日本語の意味を答えてください",
+    "text": "식당",
+    "answer": "食堂",
+    "explanation": "「식당」は「食堂」です。",
+    "choices": [],
+    "accepted": [
+      "食堂"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "8v8",
+    "lesson": "8",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "韓国語で書いてください",
+    "text": "会う",
+    "answer": "만나다",
+    "explanation": "「만나다」は「会う」です。",
+    "choices": [],
+    "accepted": [
+      "만나다"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "8vr8",
+    "lesson": "8",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "日本語の意味を答えてください",
+    "text": "만나다",
+    "answer": "会う",
+    "explanation": "「만나다」は「会う」です。",
+    "choices": [],
+    "accepted": [
+      "会う"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "8v9",
+    "lesson": "8",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "韓国語で書いてください",
+    "text": "行く",
+    "answer": "가다",
+    "explanation": "「가다」は「行く」です。",
+    "choices": [],
+    "accepted": [
+      "가다"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "8vr9",
+    "lesson": "8",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "日本語の意味を答えてください",
+    "text": "가다",
+    "answer": "行く",
+    "explanation": "「가다」は「行く」です。",
+    "choices": [],
+    "accepted": [
+      "行く"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "8v10",
+    "lesson": "8",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "韓国語で書いてください",
+    "text": "待つ",
+    "answer": "기다리다",
+    "explanation": "「기다리다」は「待つ」です。",
+    "choices": [],
+    "accepted": [
+      "기다리다"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "8vr10",
+    "lesson": "8",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "日本語の意味を答えてください",
+    "text": "기다리다",
+    "answer": "待つ",
+    "explanation": "「기다리다」は「待つ」です。",
+    "choices": [],
+    "accepted": [
+      "待つ"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "8v11",
+    "lesson": "8",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "韓国語で書いてください",
+    "text": "送る",
+    "answer": "보내다",
+    "explanation": "「보내다」は「送る」です。",
+    "choices": [],
+    "accepted": [
+      "보내다"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "8vr11",
+    "lesson": "8",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "日本語の意味を答えてください",
+    "text": "보내다",
+    "answer": "送る",
+    "explanation": "「보내다」は「送る」です。",
+    "choices": [],
+    "accepted": [
+      "送る"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "8v12",
+    "lesson": "8",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "韓国語で書いてください",
+    "text": "教える",
+    "answer": "가르치다",
+    "explanation": "「가르치다」は「教える」です。",
+    "choices": [],
+    "accepted": [
+      "가르치다"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "8vr12",
+    "lesson": "8",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "日本語の意味を答えてください",
+    "text": "가르치다",
+    "answer": "教える",
+    "explanation": "「가르치다」は「教える」です。",
+    "choices": [],
+    "accepted": [
+      "教える"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "8v13",
+    "lesson": "8",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "韓国語で書いてください",
+    "text": "見る",
+    "answer": "보다",
+    "explanation": "「보다」は「見る」です。",
+    "choices": [],
+    "accepted": [
+      "보다"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "8vr13",
+    "lesson": "8",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "日本語の意味を答えてください",
+    "text": "보다",
+    "answer": "見る",
+    "explanation": "「보다」は「見る」です。",
+    "choices": [],
+    "accepted": [
+      "見る"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "8v14",
+    "lesson": "8",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "韓国語で書いてください",
+    "text": "銀行",
+    "answer": "은행",
+    "explanation": "「은행」は「銀行」です。",
+    "choices": [],
+    "accepted": [
+      "은행"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": "発音：으냉"
+  },
+  {
+    "id": "8vr14",
+    "lesson": "8",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "日本語の意味を答えてください",
+    "text": "은행",
+    "answer": "銀行",
+    "explanation": "「은행」は「銀行」です。",
+    "choices": [],
+    "accepted": [
+      "銀行"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": "発音：으냉"
+  },
+  {
+    "id": "8v15",
+    "lesson": "8",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "韓国語で書いてください",
+    "text": "約束",
+    "answer": "약속",
+    "explanation": "「약속」は「約束」です。",
+    "choices": [],
+    "accepted": [
+      "약속"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "8vr15",
+    "lesson": "8",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "日本語の意味を答えてください",
+    "text": "약속",
+    "answer": "約束",
+    "explanation": "「약속」は「約束」です。",
+    "choices": [],
+    "accepted": [
+      "約束"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "8v16",
+    "lesson": "8",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "韓国語で書いてください",
+    "text": "読む",
+    "answer": "읽다",
+    "explanation": "「읽다」は「読む」です。",
+    "choices": [],
+    "accepted": [
+      "읽다"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": "発音：익따"
+  },
+  {
+    "id": "8vr16",
+    "lesson": "8",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "日本語の意味を答えてください",
+    "text": "읽다",
+    "answer": "読む",
+    "explanation": "「읽다」は「読む」です。",
+    "choices": [],
+    "accepted": [
+      "読む"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": "発音：익따"
+  },
+  {
+    "id": "8v17",
+    "lesson": "8",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "韓国語で書いてください",
+    "text": "服",
+    "answer": "옷",
+    "explanation": "「옷」は「服」です。",
+    "choices": [],
+    "accepted": [
+      "옷"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "8vr17",
+    "lesson": "8",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "日本語の意味を答えてください",
+    "text": "옷",
+    "answer": "服",
+    "explanation": "「옷」は「服」です。",
+    "choices": [],
+    "accepted": [
+      "服"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "8v18",
+    "lesson": "8",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "韓国語で書いてください",
+    "text": "授業",
+    "answer": "수업",
+    "explanation": "「수업」は「授業」です。",
+    "choices": [],
+    "accepted": [
+      "수업"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "8vr18",
+    "lesson": "8",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "日本語の意味を答えてください",
+    "text": "수업",
+    "answer": "授業",
+    "explanation": "「수업」は「授業」です。",
+    "choices": [],
+    "accepted": [
+      "授業"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "8v19",
+    "lesson": "8",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "韓国語で書いてください",
+    "text": "寝る",
+    "answer": "자다",
+    "explanation": "「자다」は「寝る」です。",
+    "choices": [],
+    "accepted": [
+      "자다"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "8vr19",
+    "lesson": "8",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "日本語の意味を答えてください",
+    "text": "자다",
+    "answer": "寝る",
+    "explanation": "「자다」は「寝る」です。",
+    "choices": [],
+    "accepted": [
+      "寝る"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "8v20",
+    "lesson": "8",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "韓国語で書いてください",
+    "text": "コンビニ",
+    "answer": "편의점",
+    "explanation": "「편의점」は「コンビニ」です。",
+    "choices": [],
+    "accepted": [
+      "편의점"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": "発音：펴니점"
+  },
+  {
+    "id": "8vr20",
+    "lesson": "8",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "日本語の意味を答えてください",
+    "text": "편의점",
+    "answer": "コンビニ",
+    "explanation": "「편의점」は「コンビニ」です。",
+    "choices": [],
+    "accepted": [
+      "コンビニ"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": "発音：펴니점"
+  },
+  {
+    "id": "8v21",
+    "lesson": "8",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "韓国語で書いてください",
+    "text": "休む",
+    "answer": "쉬다",
+    "explanation": "「쉬다」は「休む」です。",
+    "choices": [],
+    "accepted": [
+      "쉬다"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "8vr21",
+    "lesson": "8",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "日本語の意味を答えてください",
+    "text": "쉬다",
+    "answer": "休む",
+    "explanation": "「쉬다」は「休む」です。",
+    "choices": [],
+    "accepted": [
+      "休む"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "8v22",
+    "lesson": "8",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "韓国語で書いてください",
+    "text": "買う",
+    "answer": "사다",
+    "explanation": "「사다」は「買う」です。",
+    "choices": [],
+    "accepted": [
+      "사다"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "8vr22",
+    "lesson": "8",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "日本語の意味を答えてください",
+    "text": "사다",
+    "answer": "買う",
+    "explanation": "「사다」は「買う」です。",
+    "choices": [],
+    "accepted": [
+      "買う"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "8v23",
+    "lesson": "8",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "韓国語で書いてください",
+    "text": "友達",
+    "answer": "친구",
+    "explanation": "「친구」は「友達」です。",
+    "choices": [],
+    "accepted": [
+      "친구"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "8vr23",
+    "lesson": "8",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "日本語の意味を答えてください",
+    "text": "친구",
+    "answer": "友達",
+    "explanation": "「친구」は「友達」です。",
+    "choices": [],
+    "accepted": [
+      "友達"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "9v1",
+    "lesson": "9",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "韓国語で書いてください",
+    "text": "日曜日",
+    "answer": "일요일",
+    "explanation": "「일요일」は「日曜日」です。",
+    "choices": [],
+    "accepted": [
+      "일요일"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "9vr1",
+    "lesson": "9",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "日本語の意味を答えてください",
+    "text": "일요일",
+    "answer": "日曜日",
+    "explanation": "「일요일」は「日曜日」です。",
+    "choices": [],
+    "accepted": [
+      "日曜日"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "9v2",
+    "lesson": "9",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "韓国語で書いてください",
+    "text": "月曜日",
+    "answer": "월요일",
+    "explanation": "「월요일」は「月曜日」です。",
+    "choices": [],
+    "accepted": [
+      "월요일"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "9vr2",
+    "lesson": "9",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "日本語の意味を答えてください",
+    "text": "월요일",
+    "answer": "月曜日",
+    "explanation": "「월요일」は「月曜日」です。",
+    "choices": [],
+    "accepted": [
+      "月曜日"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "9v3",
+    "lesson": "9",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "韓国語で書いてください",
+    "text": "火曜日",
+    "answer": "화요일",
+    "explanation": "「화요일」は「火曜日」です。",
+    "choices": [],
+    "accepted": [
+      "화요일"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "9vr3",
+    "lesson": "9",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "日本語の意味を答えてください",
+    "text": "화요일",
+    "answer": "火曜日",
+    "explanation": "「화요일」は「火曜日」です。",
+    "choices": [],
+    "accepted": [
+      "火曜日"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "9v4",
+    "lesson": "9",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "韓国語で書いてください",
+    "text": "水曜日",
+    "answer": "수요일",
+    "explanation": "「수요일」は「水曜日」です。",
+    "choices": [],
+    "accepted": [
+      "수요일"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "9vr4",
+    "lesson": "9",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "日本語の意味を答えてください",
+    "text": "수요일",
+    "answer": "水曜日",
+    "explanation": "「수요일」は「水曜日」です。",
+    "choices": [],
+    "accepted": [
+      "水曜日"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "9v5",
+    "lesson": "9",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "韓国語で書いてください",
+    "text": "木曜日",
+    "answer": "목요일",
+    "explanation": "「목요일」は「木曜日」です。",
+    "choices": [],
+    "accepted": [
+      "목요일"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "9vr5",
+    "lesson": "9",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "日本語の意味を答えてください",
+    "text": "목요일",
+    "answer": "木曜日",
+    "explanation": "「목요일」は「木曜日」です。",
+    "choices": [],
+    "accepted": [
+      "木曜日"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "9v6",
+    "lesson": "9",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "韓国語で書いてください",
+    "text": "金曜日",
+    "answer": "금요일",
+    "explanation": "「금요일」は「金曜日」です。",
+    "choices": [],
+    "accepted": [
+      "금요일"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "9vr6",
+    "lesson": "9",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "日本語の意味を答えてください",
+    "text": "금요일",
+    "answer": "金曜日",
+    "explanation": "「금요일」は「金曜日」です。",
+    "choices": [],
+    "accepted": [
+      "金曜日"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "9v7",
+    "lesson": "9",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "韓国語で書いてください",
+    "text": "土曜日",
+    "answer": "토요일",
+    "explanation": "「토요일」は「土曜日」です。",
+    "choices": [],
+    "accepted": [
+      "토요일"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "9vr7",
+    "lesson": "9",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "日本語の意味を答えてください",
+    "text": "토요일",
+    "answer": "土曜日",
+    "explanation": "「토요일」は「土曜日」です。",
+    "choices": [],
+    "accepted": [
+      "土曜日"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "9v8",
+    "lesson": "9",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "韓国語で書いてください",
+    "text": "よく/うまく",
+    "answer": "잘",
+    "explanation": "「잘」は「よく/うまく」です。",
+    "choices": [],
+    "accepted": [
+      "잘"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "9vr8",
+    "lesson": "9",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "日本語の意味を答えてください",
+    "text": "잘",
+    "answer": "よく/うまく",
+    "explanation": "「잘」は「よく/うまく」です。",
+    "choices": [],
+    "accepted": [
+      "よく/うまく",
+      "よく",
+      "うまく"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "9v9",
+    "lesson": "9",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "韓国語で書いてください",
+    "text": "ありがたい",
+    "answer": "고맙다",
+    "explanation": "「고맙다」は「ありがたい」です。",
+    "choices": [],
+    "accepted": [
+      "고맙다"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": "ㅂ変則"
+  },
+  {
+    "id": "9vr9",
+    "lesson": "9",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "日本語の意味を答えてください",
+    "text": "고맙다",
+    "answer": "ありがたい",
+    "explanation": "「고맙다」は「ありがたい」です。",
+    "choices": [],
+    "accepted": [
+      "ありがたい"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": "ㅂ変則"
+  },
+  {
+    "id": "9v10",
+    "lesson": "9",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "韓国語で書いてください",
+    "text": "お金",
+    "answer": "돈",
+    "explanation": "「돈」は「お金」です。",
+    "choices": [],
+    "accepted": [
+      "돈"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "9vr10",
+    "lesson": "9",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "日本語の意味を答えてください",
+    "text": "돈",
+    "answer": "お金",
+    "explanation": "「돈」は「お金」です。",
+    "choices": [],
+    "accepted": [
+      "お金"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "9v11",
+    "lesson": "9",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "韓国語で書いてください",
+    "text": "探す/下ろす",
+    "answer": "찾다",
+    "explanation": "「찾다」は「探す/下ろす」です。",
+    "choices": [],
+    "accepted": [
+      "찾다"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "9vr11",
+    "lesson": "9",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "日本語の意味を答えてください",
+    "text": "찾다",
+    "answer": "探す/下ろす",
+    "explanation": "「찾다」は「探す/下ろす」です。",
+    "choices": [],
+    "accepted": [
+      "探す/下ろす",
+      "探す",
+      "下ろす"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "9v12",
+    "lesson": "9",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "韓国語で書いてください",
+    "text": "プレゼントする",
+    "answer": "선물하다",
+    "explanation": "「선물하다」は「プレゼントする」です。",
+    "choices": [],
+    "accepted": [
+      "선물하다"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": "発音：선무라다"
+  },
+  {
+    "id": "9vr12",
+    "lesson": "9",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "日本語の意味を答えてください",
+    "text": "선물하다",
+    "answer": "プレゼントする",
+    "explanation": "「선물하다」は「プレゼントする」です。",
+    "choices": [],
+    "accepted": [
+      "プレゼントする"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": "発音：선무라다"
+  },
+  {
+    "id": "9v13",
+    "lesson": "9",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "韓国語で書いてください",
+    "text": "易しい",
+    "answer": "쉽다",
+    "explanation": "「쉽다」は「易しい」です。",
+    "choices": [],
+    "accepted": [
+      "쉽다"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": "ㅂ変則"
+  },
+  {
+    "id": "9vr13",
+    "lesson": "9",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "日本語の意味を答えてください",
+    "text": "쉽다",
+    "answer": "易しい",
+    "explanation": "「쉽다」は「易しい」です。",
+    "choices": [],
+    "accepted": [
+      "易しい"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": "ㅂ変則"
+  },
+  {
+    "id": "9v14",
+    "lesson": "9",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "韓国語で書いてください",
+    "text": "暑い",
+    "answer": "덥다",
+    "explanation": "「덥다」は「暑い」です。",
+    "choices": [],
+    "accepted": [
+      "덥다"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": "ㅂ変則"
+  },
+  {
+    "id": "9vr14",
+    "lesson": "9",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "日本語の意味を答えてください",
+    "text": "덥다",
+    "answer": "暑い",
+    "explanation": "「덥다」は「暑い」です。",
+    "choices": [],
+    "accepted": [
+      "暑い"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": "ㅂ変則"
+  },
+  {
+    "id": "9v15",
+    "lesson": "9",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "韓国語で書いてください",
+    "text": "寒い",
+    "answer": "춥다",
+    "explanation": "「춥다」は「寒い」です。",
+    "choices": [],
+    "accepted": [
+      "춥다"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": "ㅂ変則"
+  },
+  {
+    "id": "9vr15",
+    "lesson": "9",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "日本語の意味を答えてください",
+    "text": "춥다",
+    "answer": "寒い",
+    "explanation": "「춥다」は「寒い」です。",
+    "choices": [],
+    "accepted": [
+      "寒い"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": "ㅂ変則"
+  },
+  {
+    "id": "9v16",
+    "lesson": "9",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "韓国語で書いてください",
+    "text": "家",
+    "answer": "집",
+    "explanation": "「집」は「家」です。",
+    "choices": [],
+    "accepted": [
+      "집"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "9vr16",
+    "lesson": "9",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "日本語の意味を答えてください",
+    "text": "집",
+    "answer": "家",
+    "explanation": "「집」は「家」です。",
+    "choices": [],
+    "accepted": [
+      "家"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "9v17",
+    "lesson": "9",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "韓国語で書いてください",
+    "text": "着る",
+    "answer": "입다",
+    "explanation": "「입다」は「着る」です。",
+    "choices": [],
+    "accepted": [
+      "입다"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "9vr17",
+    "lesson": "9",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "日本語の意味を答えてください",
+    "text": "입다",
+    "answer": "着る",
+    "explanation": "「입다」は「着る」です。",
+    "choices": [],
+    "accepted": [
+      "着る"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "9v18",
+    "lesson": "9",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "韓国語で書いてください",
+    "text": "その",
+    "answer": "그",
+    "explanation": "「그」は「その」です。",
+    "choices": [],
+    "accepted": [
+      "그"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "9vr18",
+    "lesson": "9",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "日本語の意味を答えてください",
+    "text": "그",
+    "answer": "その",
+    "explanation": "「그」は「その」です。",
+    "choices": [],
+    "accepted": [
+      "その"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "9v19",
+    "lesson": "9",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "韓国語で書いてください",
+    "text": "似合う",
+    "answer": "어울리다",
+    "explanation": "「어울리다」は「似合う」です。",
+    "choices": [],
+    "accepted": [
+      "어울리다"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "9vr19",
+    "lesson": "9",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "日本語の意味を答えてください",
+    "text": "어울리다",
+    "answer": "似合う",
+    "explanation": "「어울리다」は「似合う」です。",
+    "choices": [],
+    "accepted": [
+      "似合う"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "9v20",
+    "lesson": "9",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "韓国語で書いてください",
+    "text": "借りる",
+    "answer": "빌리다",
+    "explanation": "「빌리다」は「借りる」です。",
+    "choices": [],
+    "accepted": [
+      "빌리다"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "9vr20",
+    "lesson": "9",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "日本語の意味を答えてください",
+    "text": "빌리다",
+    "answer": "借りる",
+    "explanation": "「빌리다」は「借りる」です。",
+    "choices": [],
+    "accepted": [
+      "借りる"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "9v21",
+    "lesson": "9",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "韓国語で書いてください",
+    "text": "帰ってくる",
+    "answer": "돌아오다",
+    "explanation": "「돌아오다」は「帰ってくる」です。",
+    "choices": [],
+    "accepted": [
+      "돌아오다"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "9vr21",
+    "lesson": "9",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "日本語の意味を答えてください",
+    "text": "돌아오다",
+    "answer": "帰ってくる",
+    "explanation": "「돌아오다」は「帰ってくる」です。",
+    "choices": [],
+    "accepted": [
+      "帰ってくる"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "9v22",
+    "lesson": "9",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "韓国語で書いてください",
+    "text": "小説の本",
+    "answer": "소설책",
+    "explanation": "「소설책」は「小説の本」です。",
+    "choices": [],
+    "accepted": [
+      "소설책"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "9vr22",
+    "lesson": "9",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "日本語の意味を答えてください",
+    "text": "소설책",
+    "answer": "小説の本",
+    "explanation": "「소설책」は「小説の本」です。",
+    "choices": [],
+    "accepted": [
+      "小説の本"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "9v23",
+    "lesson": "9",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "韓国語で書いてください",
+    "text": "毎日",
+    "answer": "매일",
+    "explanation": "「매일」は「毎日」です。",
+    "choices": [],
+    "accepted": [
+      "매일"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "9vr23",
+    "lesson": "9",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "日本語の意味を答えてください",
+    "text": "매일",
+    "answer": "毎日",
+    "explanation": "「매일」は「毎日」です。",
+    "choices": [],
+    "accepted": [
+      "毎日"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "9v24",
+    "lesson": "9",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "韓国語で書いてください",
+    "text": "何",
+    "answer": "뭐",
+    "explanation": "「뭐」は「何」です。",
+    "choices": [],
+    "accepted": [
+      "뭐",
+      "무엇"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "9vr24",
+    "lesson": "9",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "日本語の意味を答えてください",
+    "text": "뭐",
+    "answer": "何",
+    "explanation": "「뭐」は「何」です。",
+    "choices": [],
+    "accepted": [
+      "何"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "9v25",
+    "lesson": "9",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "韓国語で書いてください",
+    "text": "つかむ",
+    "answer": "잡다",
+    "explanation": "「잡다」は「つかむ」です。",
+    "choices": [],
+    "accepted": [
+      "잡다"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "9vr25",
+    "lesson": "9",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "日本語の意味を答えてください",
+    "text": "잡다",
+    "answer": "つかむ",
+    "explanation": "「잡다」は「つかむ」です。",
+    "choices": [],
+    "accepted": [
+      "つかむ"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "9v26",
+    "lesson": "9",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "韓国語で書いてください",
+    "text": "書く",
+    "answer": "쓰다",
+    "explanation": "「쓰다」は「書く」です。",
+    "choices": [],
+    "accepted": [
+      "쓰다"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": "으変則"
+  },
+  {
+    "id": "9vr26",
+    "lesson": "9",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "日本語の意味を答えてください",
+    "text": "쓰다",
+    "answer": "書く",
+    "explanation": "「쓰다」は「書く」です。",
+    "choices": [],
+    "accepted": [
+      "書く"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": "으変則"
+  },
+  {
+    "id": "10v1",
+    "lesson": "10",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "韓国語で書いてください",
+    "text": "いくら",
+    "answer": "얼마",
+    "explanation": "「얼마」は「いくら」です。",
+    "choices": [],
+    "accepted": [
+      "얼마"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "10vr1",
+    "lesson": "10",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "日本語の意味を答えてください",
+    "text": "얼마",
+    "answer": "いくら",
+    "explanation": "「얼마」は「いくら」です。",
+    "choices": [],
+    "accepted": [
+      "いくら"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "10v2",
+    "lesson": "10",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "韓国語で書いてください",
+    "text": "ズボン",
+    "answer": "바지",
+    "explanation": "「바지」は「ズボン」です。",
+    "choices": [],
+    "accepted": [
+      "바지"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "10vr2",
+    "lesson": "10",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "日本語の意味を答えてください",
+    "text": "바지",
+    "answer": "ズボン",
+    "explanation": "「바지」は「ズボン」です。",
+    "choices": [],
+    "accepted": [
+      "ズボン"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "10v3",
+    "lesson": "10",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "韓国語で書いてください",
+    "text": "椅子",
+    "answer": "의자",
+    "explanation": "「의자」は「椅子」です。",
+    "choices": [],
+    "accepted": [
+      "의자"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "10vr3",
+    "lesson": "10",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "日本語の意味を答えてください",
+    "text": "의자",
+    "answer": "椅子",
+    "explanation": "「의자」は「椅子」です。",
+    "choices": [],
+    "accepted": [
+      "椅子"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "10v4",
+    "lesson": "10",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "韓国語で書いてください",
+    "text": "ある/いる",
+    "answer": "있다",
+    "explanation": "「있다」は「ある/いる」です。",
+    "choices": [],
+    "accepted": [
+      "있다"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "10vr4",
+    "lesson": "10",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "日本語の意味を答えてください",
+    "text": "있다",
+    "answer": "ある/いる",
+    "explanation": "「있다」は「ある/いる」です。",
+    "choices": [],
+    "accepted": [
+      "ある/いる",
+      "ある",
+      "いる"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "10v5",
+    "lesson": "10",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "韓国語で書いてください",
+    "text": "何の",
+    "answer": "무슨",
+    "explanation": "「무슨」は「何の」です。",
+    "choices": [],
+    "accepted": [
+      "무슨"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "10vr5",
+    "lesson": "10",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "日本語の意味を答えてください",
+    "text": "무슨",
+    "answer": "何の",
+    "explanation": "「무슨」は「何の」です。",
+    "choices": [],
+    "accepted": [
+      "何の"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "10v6",
+    "lesson": "10",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "韓国語で書いてください",
+    "text": "曜日",
+    "answer": "요일",
+    "explanation": "「요일」は「曜日」です。",
+    "choices": [],
+    "accepted": [
+      "요일"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "10vr6",
+    "lesson": "10",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "日本語の意味を答えてください",
+    "text": "요일",
+    "answer": "曜日",
+    "explanation": "「요일」は「曜日」です。",
+    "choices": [],
+    "accepted": [
+      "曜日"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "10v7",
+    "lesson": "10",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "韓国語で書いてください",
+    "text": "いつ",
+    "answer": "언제",
+    "explanation": "「언제」は「いつ」です。",
+    "choices": [],
+    "accepted": [
+      "언제"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "10vr7",
+    "lesson": "10",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "日本語の意味を答えてください",
+    "text": "언제",
+    "answer": "いつ",
+    "explanation": "「언제」は「いつ」です。",
+    "choices": [],
+    "accepted": [
+      "いつ"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "10v8",
+    "lesson": "10",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "韓国語で書いてください",
+    "text": "（弟から）兄",
+    "answer": "형",
+    "explanation": "「형」は「（弟から）兄」です。",
+    "choices": [],
+    "accepted": [
+      "형"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "10vr8",
+    "lesson": "10",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "日本語の意味を答えてください",
+    "text": "형",
+    "answer": "（弟から）兄",
+    "explanation": "「형」は「（弟から）兄」です。",
+    "choices": [],
+    "accepted": [
+      "（弟から）兄"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "10v9",
+    "lesson": "10",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "韓国語で書いてください",
+    "text": "明日",
+    "answer": "내일",
+    "explanation": "「내일」は「明日」です。",
+    "choices": [],
+    "accepted": [
+      "내일"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "10vr9",
+    "lesson": "10",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "日本語の意味を答えてください",
+    "text": "내일",
+    "answer": "明日",
+    "explanation": "「내일」は「明日」です。",
+    "choices": [],
+    "accepted": [
+      "明日"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "10v10",
+    "lesson": "10",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "韓国語で書いてください",
+    "text": "電話",
+    "answer": "전화",
+    "explanation": "「전화」は「電話」です。",
+    "choices": [],
+    "accepted": [
+      "전화"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": "発音：저나"
+  },
+  {
+    "id": "10vr10",
+    "lesson": "10",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "日本語の意味を答えてください",
+    "text": "전화",
+    "answer": "電話",
+    "explanation": "「전화」は「電話」です。",
+    "choices": [],
+    "accepted": [
+      "電話"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": "発音：저나"
+  },
+  {
+    "id": "10v11",
+    "lesson": "10",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "韓国語で書いてください",
+    "text": "いくつ/何",
+    "answer": "몇",
+    "explanation": "「몇」は「いくつ/何」です。",
+    "choices": [],
+    "accepted": [
+      "몇"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "10vr11",
+    "lesson": "10",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "日本語の意味を答えてください",
+    "text": "몇",
+    "answer": "いくつ/何",
+    "explanation": "「몇」は「いくつ/何」です。",
+    "choices": [],
+    "accepted": [
+      "いくつ/何",
+      "いくつ",
+      "何"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "10v12",
+    "lesson": "10",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "韓国語で書いてください",
+    "text": "手紙",
+    "answer": "편지",
+    "explanation": "「편지」は「手紙」です。",
+    "choices": [],
+    "accepted": [
+      "편지"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "10vr12",
+    "lesson": "10",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "日本語の意味を答えてください",
+    "text": "편지",
+    "answer": "手紙",
+    "explanation": "「편지」は「手紙」です。",
+    "choices": [],
+    "accepted": [
+      "手紙"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "10v13",
+    "lesson": "10",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "韓国語で書いてください",
+    "text": "履物",
+    "answer": "신발",
+    "explanation": "「신발」は「履物」です。",
+    "choices": [],
+    "accepted": [
+      "신발"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "10vr13",
+    "lesson": "10",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "日本語の意味を答えてください",
+    "text": "신발",
+    "answer": "履物",
+    "explanation": "「신발」は「履物」です。",
+    "choices": [],
+    "accepted": [
+      "履物"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "10v14",
+    "lesson": "10",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "韓国語で書いてください",
+    "text": "座る",
+    "answer": "앉다",
+    "explanation": "「앉다」は「座る」です。",
+    "choices": [],
+    "accepted": [
+      "앉다"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": "発音：안따"
+  },
+  {
+    "id": "10vr14",
+    "lesson": "10",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "日本語の意味を答えてください",
+    "text": "앉다",
+    "answer": "座る",
+    "explanation": "「앉다」は「座る」です。",
+    "choices": [],
+    "accepted": [
+      "座る"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": "発音：안따"
+  },
+  {
+    "id": "10v15",
+    "lesson": "10",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "韓国語で書いてください",
+    "text": "新聞",
+    "answer": "신문",
+    "explanation": "「신문」は「新聞」です。",
+    "choices": [],
+    "accepted": [
+      "신문"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "10vr15",
+    "lesson": "10",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "日本語の意味を答えてください",
+    "text": "신문",
+    "answer": "新聞",
+    "explanation": "「신문」は「新聞」です。",
+    "choices": [],
+    "accepted": [
+      "新聞"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "10v16",
+    "lesson": "10",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "韓国語で書いてください",
+    "text": "ボールペン",
+    "answer": "볼펜",
+    "explanation": "「볼펜」は「ボールペン」です。",
+    "choices": [],
+    "accepted": [
+      "볼펜"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "10vr16",
+    "lesson": "10",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "日本語の意味を答えてください",
+    "text": "볼펜",
+    "answer": "ボールペン",
+    "explanation": "「볼펜」は「ボールペン」です。",
+    "choices": [],
+    "accepted": [
+      "ボールペン"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "10v17",
+    "lesson": "10",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "韓国語で書いてください",
+    "text": "誕生日",
+    "answer": "생일",
+    "explanation": "「생일」は「誕生日」です。",
+    "choices": [],
+    "accepted": [
+      "생일"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "10vr17",
+    "lesson": "10",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "日本語の意味を答えてください",
+    "text": "생일",
+    "answer": "誕生日",
+    "explanation": "「생일」は「誕生日」です。",
+    "choices": [],
+    "accepted": [
+      "誕生日"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "10v18",
+    "lesson": "10",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "韓国語で書いてください",
+    "text": "くつ",
+    "answer": "구두",
+    "explanation": "「구두」は「くつ」です。",
+    "choices": [],
+    "accepted": [
+      "구두"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "10vr18",
+    "lesson": "10",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "日本語の意味を答えてください",
+    "text": "구두",
+    "answer": "くつ",
+    "explanation": "「구두」は「くつ」です。",
+    "choices": [],
+    "accepted": [
+      "くつ"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "10v19",
+    "lesson": "10",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "韓国語で書いてください",
+    "text": "教科書",
+    "answer": "교과서",
+    "explanation": "「교과서」は「教科書」です。",
+    "choices": [],
+    "accepted": [
+      "교과서"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "10vr19",
+    "lesson": "10",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "日本語の意味を答えてください",
+    "text": "교과서",
+    "answer": "教科書",
+    "explanation": "「교과서」は「教科書」です。",
+    "choices": [],
+    "accepted": [
+      "教科書"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "10v20",
+    "lesson": "10",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "韓国語で書いてください",
+    "text": "食事",
+    "answer": "식사",
+    "explanation": "「식사」は「食事」です。",
+    "choices": [],
+    "accepted": [
+      "식사"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "10vr20",
+    "lesson": "10",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "日本語の意味を答えてください",
+    "text": "식사",
+    "answer": "食事",
+    "explanation": "「식사」は「食事」です。",
+    "choices": [],
+    "accepted": [
+      "食事"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "10v21",
+    "lesson": "10",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "韓国語で書いてください",
+    "text": "今日",
+    "answer": "오늘",
+    "explanation": "「오늘」は「今日」です。",
+    "choices": [],
+    "accepted": [
+      "오늘"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "10vr21",
+    "lesson": "10",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "日本語の意味を答えてください",
+    "text": "오늘",
+    "answer": "今日",
+    "explanation": "「오늘」は「今日」です。",
+    "choices": [],
+    "accepted": [
+      "今日"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "10v22",
+    "lesson": "10",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "韓国語で書いてください",
+    "text": "名前",
+    "answer": "이름",
+    "explanation": "「이름」は「名前」です。",
+    "choices": [],
+    "accepted": [
+      "이름"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "10vr22",
+    "lesson": "10",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "日本語の意味を答えてください",
+    "text": "이름",
+    "answer": "名前",
+    "explanation": "「이름」は「名前」です。",
+    "choices": [],
+    "accepted": [
+      "名前"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "10v23",
+    "lesson": "10",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "韓国語で書いてください",
+    "text": "ハングル",
+    "answer": "한글",
+    "explanation": "「한글」は「ハングル」です。",
+    "choices": [],
+    "accepted": [
+      "한글"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "10vr23",
+    "lesson": "10",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "日本語の意味を答えてください",
+    "text": "한글",
+    "answer": "ハングル",
+    "explanation": "「한글」は「ハングル」です。",
+    "choices": [],
+    "accepted": [
+      "ハングル"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "10v24",
+    "lesson": "10",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "韓国語で書いてください",
+    "text": "学年/年生",
+    "answer": "학년",
+    "explanation": "「학년」は「学年/年生」です。",
+    "choices": [],
+    "accepted": [
+      "학년"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": "発音：항년"
+  },
+  {
+    "id": "10vr24",
+    "lesson": "10",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "日本語の意味を答えてください",
+    "text": "학년",
+    "answer": "学年/年生",
+    "explanation": "「학년」は「学年/年生」です。",
+    "choices": [],
+    "accepted": [
+      "学年/年生",
+      "学年",
+      "年生"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": "発音：항년"
+  },
+  {
+    "id": "10v25",
+    "lesson": "10",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "韓国語で書いてください",
+    "text": "何日",
+    "answer": "며칠",
+    "explanation": "「며칠」は「何日」です。",
+    "choices": [],
+    "accepted": [
+      "며칠"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
+  },
+  {
+    "id": "10vr25",
+    "lesson": "10",
+    "category": "単語",
+    "mode": "vocab",
+    "prompt": "日本語の意味を答えてください",
+    "text": "며칠",
+    "answer": "何日",
+    "explanation": "「며칠」は「何日」です。",
+    "choices": [],
+    "accepted": [
+      "何日"
+    ],
+    "priority": false,
+    "tags": [
+      "vocab"
+    ],
+    "hint": ""
   }
 ];
