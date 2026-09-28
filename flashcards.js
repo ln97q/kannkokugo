@@ -81,14 +81,14 @@
     $("#backLabel").textContent = frontKorean ? "日本語" : "韓国語";
     $("#frontText").textContent = frontKorean ? card.korean : card.japanese;
     $("#backText").textContent = frontKorean ? card.japanese : card.korean;
-    $("#cardExplanation").textContent = `${card.explanations[0] || ""}\n\n💡 覚え方\n${card.hints[0] || "声に出して3回練習しましょう。"}`;
+    $("#cardExplanation").textContent = `${card.explanations[0] || ""}\n\n覚え方\n${card.hints[0] || "声に出して3回練習しましょう。"}`;
     $("#backArea").classList.add("hidden");
     $("#frontHint").classList.remove("hidden");
     $("#flipCardBtn").textContent = "答えを見る";
     $("#flashcard").setAttribute("aria-pressed","false");
     $("#cardPosition").textContent = `${state.index+1} / ${state.cards.length}`;
     const note = mergedNote(card);
-    $("#cardStatus").textContent = `${note.learned ? "✅ 覚えた" : "未習得"}${note.difficulty ? `・苦手度${note.difficulty}` : ""}`;
+    $("#cardStatus").textContent = `${note.learned ? "覚えた" : "未習得"}${note.difficulty ? `・苦手度${note.difficulty}` : ""}`;
     $("#flashMemo").value = note.memo;
     $("#flashLearned").checked = note.learned;
     $("#flashNoteStatus").textContent = note.memo || note.difficulty || note.learned ? "保存済み" : "";
